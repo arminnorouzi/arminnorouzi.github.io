@@ -18,7 +18,7 @@ author_profile: true
 
 * A. Norouzi, M. Masoumi, A. Barari, S. F. Sani, Lateral control of an autonomous vehicle using integrated backsteppingand sliding mode controller, Proc.  IMechE,Part K: Journal of Multi-body Dynamics, 2019 Mar;233(1):141-51. [[URL](https://apps.ualberta.ca/directory/person/norouziy)] [[PDF](/files/pdf/AN_fullCV.pdf)]
 
-* A.  Norouzi,  R.  Kazemi,  Sh.   Azadi,  Vehicle  lateral  control  in  the  presence  of  uncertainty  for  lane  change  maneuverusing  adaptive  sliding  mode  control  with  fuzzy  boundary  layer,  Proc.   IMechE,Part I: Journal of Systems and ControlEngineering, 2018 Jan;232(1):12-28. [[URL](https://apps.ualberta.ca/directory/person/norouziy)] [[PDF](/files/pdf/AN_fullCV.pdf)]
+* A.  Norouzi,  R.  Kazemi,  Sh.   Azadi,  Vehicle  lateral  control  in  the  presence  of  uncertainty  for  lane  change  maneuverusing  adaptive  sliding  mode  control  with  fuzzy  boundary  layer,  Proc.   IMechE,Part I: Journal of Systems and ControlEngineering, 2018 Jan;232(1):12-28. [[URL](https://journals.sagepub.com/doi/abs/10.1177/0959651817733222)] [[PDF](/files/pdf/PartI-2018-wfp.pdf)]
 
 * A. Norouzi, H. Adibi-Asl, R. Kazemi, P. Fathi, Adaptive sliding mode control of a four-wheel-steering autonomous vehiclewith uncertainty using parallel orientation and position control,International Journal of Heavy Vehicle Systems (IJHVS),Vol.  27, No.  4, 2020. [[URL](https://apps.ualberta.ca/directory/person/norouziy)] [[PDF](/files/pdf/AN_fullCV.pdf)]
 
