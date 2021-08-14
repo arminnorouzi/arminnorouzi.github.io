@@ -8,19 +8,22 @@ redirect_from:
 ---
 
 
-#### Automotive Control Systems
+### Automotive Control Systems
 * Autonomous and connected vehicle
 * Advanced driver-assistance systems (ADAS)
 * Electric and hybrid electric vehicles
 * Advanced internal combustion engines
-#### Artificial Intelligent
+
+### Artificial Intelligent
 * Machine learning and deep learning application in automotive and robotics control
 * Reinforcement learning application in automotive and robotics control 
-#### Control
+
+### Control
 * Machine learning control
 * Model predictive control
 * Nonlinear and robust control
-#### Robotics Control
+
+### Robotics Control
 * Nonlinear motion control 
 * Nonlinear and robust control 
 
