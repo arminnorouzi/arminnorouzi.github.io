@@ -7,10 +7,20 @@ redirect_from:
   - /research.html
 ---
 
-## Research Interests
 
-* Automotive Control Systems
+#### Automotive Control Systems
 * Autonomous and connected vehicle
-* Artificial Intelligent  
-* Internal Combustion Engine 
-* Robotics Control
+* Advanced driver-assistance systems (ADAS)
+* Electric and hybrid electric vehicles
+* Advanced internal combustion engines
+#### Artificial Intelligent
+* Machine learning and deep learning application in automotive and robotics control
+* Reinforcement learning application in automotive and robotics control 
+#### Control
+* Machine learning control
+* Model predictive control
+* Nonlinear and robust control
+#### Robotics Control
+* Nonlinear motion control 
+* Nonlinear and robust control 
+
