@@ -9,7 +9,7 @@ redirect_from:
 
 
 ### Automotive Control Systems
-* Autonomous and connected vehicle
+* Autonomous and connected vehicles
 * Advanced driver-assistance systems (ADAS)
 * Electric and hybrid electric vehicles
 * Advanced internal combustion engines
