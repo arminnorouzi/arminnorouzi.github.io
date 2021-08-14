@@ -37,7 +37,7 @@ author_profile: true
 
 * M. Aliramezani, **A.Norouzi**,  C.R.  Koch,  Support  vector  machine  for  a  diesel  engine  performance  andNOxemissioncontrol-oriented model,IFAC World Congress 2020, July 12-77, 2020, Berlin, Germany. [[URL](https://www.sciencedirect.com/science/article/pii/S2405896320312635)] [[PDF](/files/pdf/1-s2.0-S2405896320312635-main-wfp.pdf)]
 
-* **A.Norouzi**, KH. Ebrahimi,  C.R.  Koch,  Integral Discrete-time Sliding Mode Control of Homogeneous Charge Compression Ignition (HCCI) Engine Load and Combustion Timing, _9thSymposium on Advances in Automotive Control (AAC19)_, June 23-27, 2019, Orleaon, France. [[URL](https://www.sciencedirect.com/science/article/pii/S2405896319306445) | [PDF](/files/pdf/AAC_IFAC_2019_V6-wfp.pdf)]
+* **A.Norouzi**, KH. Ebrahimi,  C.R.  Koch,  Integral Discrete-time Sliding Mode Control of Homogeneous Charge Compression Ignition (HCCI) Engine Load and Combustion Timing, _9thSymposium on Advances in Automotive Control (AAC19)_, June 23-27, 2019, Orleaon, France. [[URL](https://www.sciencedirect.com/science/article/pii/S2405896319306445)] [[PDF](/files/pdf/AAC_IFAC_2019_V6-wfp.pdf)]
 
 * **A.Norouzi**, C.R. Koch,  Robotic  manipulator  control  using  PD-type  fuzzy  iterative  learning  control, _32nd Canadian Conference on Electrical & Computer Engineering (CCECE)_, May 5-8, 2019, Edmonton, AB, Canada. [[URL](https://ieeexplore.ieee.org/document/8861721)] [[PDF](/files/pdf/IEEE_CCECE_2019_v6-wfp.pdf)]
 
