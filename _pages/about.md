@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "Hi I am Armin,"
 excerpt: "Biography"
 author_profile: true
 redirect_from: 
