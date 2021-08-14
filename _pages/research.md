@@ -18,7 +18,7 @@ redirect_from:
 * Machine learning and deep learning application in automotive and robotics control
 * Reinforcement learning application in automotive and robotics control 
 
-### Control
+### Control Systems
 * Machine learning control
 * Model predictive control
 * Nonlinear and robust control
