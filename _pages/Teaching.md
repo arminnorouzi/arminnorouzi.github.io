@@ -32,26 +32,26 @@ author_profile: true
 
 
 ## Iterative Learning Control
-* **Winter 2020** - _University of Alberta, Edmonton, Canada_
-    * Teaching and course preparation assistant 
+* Teaching and course preparation assistant 
+    * _Winter 2020_ - _University of Alberta, Edmonton, Canada_
         * Designing assignments, quizes, and course projects 
         * Provide guidance to student in assignments, projects, and quizes
 
 
 ## System Dynamics (Bondgraph modeling method)
-* **Fall 2016** - _K.N. Toosi University of Technology, Tehran, Iran_
-    * Teaching assistant 
+*Teaching assistant 
+    * _Fall 2016_ - _K.N. Toosi University of Technology, Tehran, Iran_
         * Hodling seminars to solve sample questions about lectures
         * Provide guidance to student in assignments, projects, and quizes
 
 ## Advanced Vibration
-* **Winter 2016** - _K.N. Toosi University of Technology, Tehran, Iran_
-    * Teaching assistant 
+*Teaching assistant 
+    * Winter 2016_ - _K.N. Toosi University of Technology, Tehran, Iran_
         * Hodling seminars to solve sample questions about lectures
         * Provide guidance to student in assignments, projects, and quizes
 
 ## Advanced Engineering Mathematics
-* **Winter 2016** - _K.N. Toosi University of Technology, Tehran, Iran_
-    * Teaching assistant 
+*Teaching assistant 
+    * _Fall 2015_ - _K.N. Toosi University of Technology, Tehran, Iran_
         * Hodling seminars to solve sample questions about lectures
         * Provide guidance to student in assignments, projects, and quizes
