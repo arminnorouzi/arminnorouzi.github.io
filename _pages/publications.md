@@ -44,7 +44,7 @@ author_profile: true
 
 ## Posters & non-refereed conference papers:
 
-* D. Gordon, **A.Norouzi**, C.R. Koch, AI-based Advance Control Methods for next generation combustion engines, _2021 Future Energy Systems Research Symposium_, Sept 20, 2021, Edmonton, Canada (Best presentation award). [[PDF](/files/pdf/FES Poster 2021_vertical.pdf)]
+* D. Gordon, **A.Norouzi**, C.R. Koch, AI-based Advance Control Methods for next generation combustion engines, _2021 Future Energy Systems Research Symposium_, Sept 20, 2021, Edmonton, Canada. [[PDF](/files/pdf/FES Poster 2021_vertical.pdf)]
 
 * D. Gordon, **A.Norouzi**, C.R. Koch, AI-based Advance Control Methods for next generation combustion engines, _Autonomous Systems Initiative (ASI) Annual Symposium_, June 2, 2021, Edmonton, Canada (Best presentation award). [[PDF](/files/pdf/ASIpresentationDGAN.pdf)]
 
