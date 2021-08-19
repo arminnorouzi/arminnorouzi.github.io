@@ -42,7 +42,10 @@ author_profile: true
 * **A.Norouzi**, C.R. Koch,  Robotic  manipulator  control  using  PD-type  fuzzy  iterative  learning  control, _32nd Canadian Conference on Electrical & Computer Engineering (CCECE)_, May 5-8, 2019, Edmonton, AB, Canada. [[URL](https://ieeexplore.ieee.org/document/8861721)] [[PDF](/files/pdf/IEEE_CCECE_2019_v6-wfp.pdf)]
 
 
-## Posters & non-refereed conference papers :
+## Posters & non-refereed conference papers:
+
+* D. Gordon, **A.Norouzi**, C.R. Koch, AI-based Advance Control Methods for next generation combustion engines, _2021 Future Energy Systems Research Symposium_, Sept 20, 2021, Edmonton, Canada (Best presentation award). [[PDF](/files/pdf/FES Poster 2021_vertical.pdf)]
+
 * D. Gordon, **A.Norouzi**, C.R. Koch, AI-based Advance Control Methods for next generation combustion engines, _Autonomous Systems Initiative (ASI) Annual Symposium_, June 2, 2021, Edmonton, Canada (Best presentation award). [[PDF](/files/pdf/ASIpresentationDGAN.pdf)]
 
 * **A.Norouzi**, M. Shahbakhti, C.R. Koch, Machine Learning-Based Diesel Engine-Out Emissions Model and Control Usingthe Learning-Based Control Technique, _WCX SAE World Congress_, April 13, 2021, Detroit, USA. [[PDF](/files/pdf/21PFL-0760_submitted.pdf)]
