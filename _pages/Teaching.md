@@ -35,19 +35,19 @@ author_profile: true
         * Provided guidance to student in assignments, projects, and quizzes
 
 ## System Dynamics (Bondgraph modeling method)
-*Teaching assistant 
+* Teaching assistant 
     * _Fall 2016_ - _K.N. Toosi University of Technology, Tehran, Iran_
         * Held seminars to solve sample questions about lectures
         * Provided guidance to student in assignments, projects, and quizzes
 
 ## Advanced Vibration
-*Teaching assistant 
+* Teaching assistant 
     * Winter 2016_ - _K.N. Toosi University of Technology, Tehran, Iran_
         * Held seminars to solve sample questions about lectures
         * Provided guidance to student in assignments, projects, and quizzes
 
 ## Advanced Engineering Mathematics
-*Teaching assistant 
+* Teaching assistant 
     * _Fall 2015_ - _K.N. Toosi University of Technology, Tehran, Iran_
         * Held seminars to solve sample questions about lectures
         * Provided guidance to student in assignments, projects, and quizzes
