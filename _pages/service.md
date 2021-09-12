@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Community Involvement"
-permalink: /service/
+permalink: /community/
 author_profile: true
 ---
 
