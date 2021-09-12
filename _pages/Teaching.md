@@ -38,19 +38,22 @@ _Mathematical preliminaries (discrete time systems). Stability and transient res
         * Designed assignments, quizzes, and course projects 
         * Provided guidance to student in assignments, projects, and quizzes
 
-### - System Dynamics (Bondgraph modeling method)
+### - System Dynamics: Bondgraph modeling method
+_ Modeling dynamic system using Bond graph method. Bond graphs are multi-energy domain and example of this course includes dynamics, thermodynamics, and electric energy couples.  Examples emphasizing Mechanical Engineering systems. Some use of computer aided design with MATLAB and 20sim._
 * Teaching assistant 
     * _Fall 2016_ - _K.N. Toosi University of Technology, Tehran, Iran_
         * Held seminars to solve sample questions about lectures
         * Provided guidance to student in assignments, projects, and quizzes
 
 ### - Advanced Vibration
+_This course build on a basic understanding of single degree of freedom linear vibration theory, to provide an in-depth understanding of advanced topics in multi-degree of freedom systems, distributed parameter systems, random vibration, and Vibrations of Continuous Systems. This course is intended to provide knowledge in the above advanced topics and aid students in their research as well as in the application of the methods to mechanical systems in practice._
 * Teaching assistant 
     * Winter 2016_ - _K.N. Toosi University of Technology, Tehran, Iran_
         * Held seminars to solve sample questions about lectures
         * Provided guidance to student in assignments, projects, and quizzes
 
 ### - Advanced Engineering Mathematics
+_The course applies advanced mathematical tools to solve electrical engineering problems. Mathematical tools include vector analysis, matrices, different coordinate systems, multivariate differential equations, Partial differential equation, Laplace transforms, Fourier analysis, and Dirac delta functions._
 * Teaching assistant 
     * _Fall 2015_ - _K.N. Toosi University of Technology, Tehran, Iran_
         * Held seminars to solve sample questions about lectures
