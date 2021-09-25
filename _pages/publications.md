@@ -8,7 +8,7 @@ author_profile: true
 ## Peer-reviewed journal papers:
 
 
-* **A.Norouzi**, M. Aliramezani, C.R. Koch, A correlation based model order reduction approach for a diesel engine NOx and BMEP dynamic model using machine learning, _International Journal of Engine Research_, 22.8 (2021): 2654-2672. [[URL](https://journals.sagepub.com/doi/abs/10.1177/1468087420936949)] [[PDF](/files/pdf/MOR-IJER-AN-v05-wfp.pdf)]
+* **A.Norouzi**, M. Aliramezani, C.R. Koch, A correlation based model order reduction approach for a diesel engine NOx and BMEP dynamic model using machine learning, _International Journal of Engine Research_, 22.8 (2021): 2654-2672. [[<i class="fas fa-link"></i>](https://journals.sagepub.com/doi/abs/10.1177/1468087420936949)] [[PDF](/files/pdf/MOR-IJER-AN-v05-wfp.pdf)]
 
 * M.  Aliramezani, **A.Norouzi**,  C.R.  Koch,  A  grey-box  machine  learning  based  model  of  an  electrochemical  gas  sensor, _Sensors and Actuators B: Chemical_ 321 (2020):  128414. [[URL](https://www.sciencedirect.com/science/article/pii/S0925400520307590?casa_token=iEpX_a4MmNIAAAAA:KYrzjeXC0XXixXneruou1znUHBf28wU_QzCXRYubPa-PS_5vRxJ9N0zFy_QQb1vj0ijon7MTjA)] [[PDF](/files/pdf/NOxsensorGreyboxSVM_R1-wfp.pdf)]
 
