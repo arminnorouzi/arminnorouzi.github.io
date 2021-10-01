@@ -7,6 +7,7 @@ author_profile: true
 
 ## Peer-reviewed journal papers:
 
+* **A. Norouzi**, H. Heidarifar, A. Borhan, M. Shahbakhti, C.R. Koch, Application of Model Predictive Control for Internal Combustion Engines (ICEs) Control: A review and future directions, _Energies_, 14(19) (2021): 6251. [<i class="fas fa-link"></i>](https://www.mdpi.com/1996-1073/14/19/6251) [<i class="fas fa-file-pdf"></i>](/files/pdf/energies-14-06251.pdf)
 
 * **A.Norouzi**, M. Aliramezani, C.R. Koch, A correlation based model order reduction approach for a diesel engine NOx and BMEP dynamic model using machine learning, _International Journal of Engine Research_, 22.8 (2021): 2654-2672. [<i class="fas fa-link"></i>](https://journals.sagepub.com/doi/abs/10.1177/1468087420936949) [<i class="fas fa-file-pdf"></i>](/files/pdf/MOR-IJER-AN-v05-wfp.pdf)
 
@@ -29,7 +30,7 @@ author_profile: true
 
 ## Peer-reviewed conference papers:
 
-* S. Shahpouri, **A.Norouzi**, C. Hayduk, R. Rezaei, M. Shahbakhti, and C. R. Koch, Soot emission modeling of a compression ignition engine using machine learning, _Modeling, Estimation and Control Conference (MECC 2021)_, University of Texasat Austin, Texas, United States.(Accepted).
+* S. Shahpouri, **A.Norouzi**, C. Hayduk, R. Rezaei, M. Shahbakhti, and C. R. Koch, Soot emission modeling of a compression ignition engine using machine learning, _Modeling, Estimation and Control Conference (MECC 2021)_, University of Texasat Austin, Texas, United States. [<i class="fas fa-link"></i>](https://mecc2021.a2c2.org/) [<i class="fas fa-file-pdf"></i>](/files/pdf/Saeed_Soot_model_ML_2021-wfp.pdf)
 
 * **A.Norouzi**, D. Gordon, M. Aliramezani, C.R. Koch, Machine Learning-based Diesel Engine-Out NOx Reduction Using a plug-in PD-type Iterative Learning Control, _4th IEEE Conference on Control Technology and Applications (CCTA 2020)_,Montreal, QB, Canada. [<i class="fas fa-link"></i>](https://ieeexplore.ieee.org/abstract/document/9206277) [<i class="fas fa-file-pdf"></i>](/files/pdf/CCTA2020_v04-wfp.pdf)
 
