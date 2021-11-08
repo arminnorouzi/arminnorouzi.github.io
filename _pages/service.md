@@ -12,6 +12,7 @@ author_profile: true
 * Graduate Students’ Association (GSA), University of Alberta, Edmonton, Canada
     * Member of Governance Committee (GSA GC) of Graduate Students’ Association (GSA) (Jan 2020 - July 2021)
     * Councillor-at-Large (CAL) of Graduate Students’ Association (GSA) Council (Jun 2019 - Apr 2020)
+* Judge for the undergraduate capstone project, MEC E Department, University of Alberta, Edmonton, Canada (April 2021)
 * Mechanical Engineering Graduate Students’ Association (MEGSA), University of Alberta, Edmonton, Canada
     * Vice-President Event (Nov 2019 - Aug 2021)
     * Vice-President Academic (Nov 2018 - Oct 2019)

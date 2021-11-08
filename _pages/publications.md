@@ -7,7 +7,7 @@ author_profile: true
 
 ## Peer-reviewed journal papers:
 
-* **A. Norouzi**, H. Heidarifar, A. Borhan, M. Shahbakhti, C.R. Koch, Support Vector Machine Based Emissions Modeling using Particle Swarm Optimization for Homogeneous Charge Compression Ignition Engine, _International Journal of Engine Research_, (In press- accepted for publication). [<i class="fas fa-link"></i>](https://www.researchgate.net/publication/355873003_Support_Vector_Machine_Based_Emissions_Modeling_using_Particle_Swarm_Optimization_for_Homogeneous_Charge_Compression_Ignition_Engine) [<i class="fas fa-file-pdf"></i>](/files/pdf/HCCI_emission_modeling_using_ML.pdf)
+* S. Shahpouri, **A. Norouzi**, C. Hayduk, R. Rezaei, M. Shahbakhti, and C. R. Koch, Support Vector Machine Based Emissions Modeling using Particle Swarm Optimization for Homogeneous Charge Compression Ignition Engine, _International Journal of Engine Research_, (In press- accepted for publication). [<i class="fas fa-link"></i>](https://www.researchgate.net/publication/355873003_Support_Vector_Machine_Based_Emissions_Modeling_using_Particle_Swarm_Optimization_for_Homogeneous_Charge_Compression_Ignition_Engine) [<i class="fas fa-file-pdf"></i>](/files/pdf/HCCI_emission_modeling_using_ML.pdf)
 
 * **A. Norouzi**, H. Heidarifar, A. Borhan, M. Shahbakhti, C.R. Koch, Application of Model Predictive Control for Internal Combustion Engines (ICEs) Control: A review and future directions, _Energies_, 14(19) (2021): 6251. [<i class="fas fa-link"></i>](https://www.mdpi.com/1996-1073/14/19/6251) [<i class="fas fa-file-pdf"></i>](/files/pdf/energies-14-06251.pdf)
 
