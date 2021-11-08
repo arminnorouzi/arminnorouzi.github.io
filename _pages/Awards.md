@@ -4,6 +4,9 @@ title: "Honors and Awards"
 permalink: /awards/
 author_profile: true
 ---
+### - Sadler Graduate Scholarship in Mechanical Engineering - 
+* University of Alberta, Edmonton, Canada, October 2021 
+    * The Sadler Graduate Scholarship in Mechanical Engineering is awarded annually to five full-time students in master's or doctoral programs in Mechanical Engineering. Selection is made on the basis of academic merit, creativity, and intellectual curiosity.
 
 ### - Mojgan Daneshmand Pedram Mousavi and Flight PS752 Memorial Graduate Scholarship - 
 * University of Alberta, Edmonton, Canada, September 2021 

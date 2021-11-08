@@ -7,6 +7,8 @@ author_profile: true
 
 ## Peer-reviewed journal papers:
 
+* **A. Norouzi**, H. Heidarifar, A. Borhan, M. Shahbakhti, C.R. Koch, Support Vector Machine Based Emissions Modeling using Particle Swarm Optimization for Homogeneous Charge Compression Ignition Engine, _International Journal of Engine Research_, (In press- accepted for publication). [<i class="fas fa-link"></i>](https://www.researchgate.net/publication/355873003_Support_Vector_Machine_Based_Emissions_Modeling_using_Particle_Swarm_Optimization_for_Homogeneous_Charge_Compression_Ignition_Engine) [<i class="fas fa-file-pdf"></i>](/files/pdf/HCCI_emission_modeling_using_ML.pdf)
+
 * **A. Norouzi**, H. Heidarifar, A. Borhan, M. Shahbakhti, C.R. Koch, Application of Model Predictive Control for Internal Combustion Engines (ICEs) Control: A review and future directions, _Energies_, 14(19) (2021): 6251. [<i class="fas fa-link"></i>](https://www.mdpi.com/1996-1073/14/19/6251) [<i class="fas fa-file-pdf"></i>](/files/pdf/energies-14-06251.pdf)
 
 * **A.Norouzi**, M. Aliramezani, C.R. Koch, A correlation based model order reduction approach for a diesel engine NOx and BMEP dynamic model using machine learning, _International Journal of Engine Research_, 22.8 (2021): 2654-2672. [<i class="fas fa-link"></i>](https://journals.sagepub.com/doi/abs/10.1177/1468087420936949) [<i class="fas fa-file-pdf"></i>](/files/pdf/MOR-IJER-AN-v05-wfp.pdf)
