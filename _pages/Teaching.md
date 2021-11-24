@@ -5,7 +5,7 @@ permalink: /teaching/
 author_profile: true
 ---
 
-### - Machine Learning Control with Engineering Applications (MECE 788)
+### - Machine Learning Control with Engineering Applications (MECE 610)
 _Development of control-oriented dynamic models using machine learning techniques. Optimal, adaptive and model predictive control techniques that are solved using methods off machine learning including support vector machines, neural networks, reinforcement ;learning and other methods of machine learning. Applications in broad linear and nonlinear engineering systems._
 * Teaching and course preparation assistant
     * _Fall 2021_ - _University of Alberta, Edmonton, Canada_
