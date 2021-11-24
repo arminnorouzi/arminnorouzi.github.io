@@ -8,15 +8,16 @@ redirect_from:
 ---
 
 
+### Artificial Intelligent
+* Machine learning and deep learning application in automotive and robotics control
+* Reinforcement learning application in automotive and robotics control 
+
 ### Automotive Control Systems
 * Autonomous and connected vehicles
 * Advanced driver-assistance systems (ADAS)
 * Electric and hybrid electric vehicles
 * Advanced internal combustion engines
 
-### Artificial Intelligent
-* Machine learning and deep learning application in automotive and robotics control
-* Reinforcement learning application in automotive and robotics control 
 
 ### Control Systems
 * Machine learning control

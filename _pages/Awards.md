@@ -4,6 +4,12 @@ title: "Honors and Awards"
 permalink: /awards/
 author_profile: true
 ---
+
+### - Alberta Graduate Excellence Scholarship - 
+* Government of Alberta, Canada, November 2021 
+    * The Alberta Graduate Excellence Scholarship recognizes outstanding academic achievement of students pursuing graduate studies in Alberta. It was established to incent the best and the brightest students, including international students, to study in Alberta.
+
+
 ### - Sadler Graduate Scholarship in Mechanical Engineering - 
 * University of Alberta, Edmonton, Canada, October 2021 
     * The Sadler Graduate Scholarship in Mechanical Engineering is awarded annually to five full-time students in master's or doctoral programs in Mechanical Engineering. Selection is made on the basis of academic merit, creativity, and intellectual curiosity.

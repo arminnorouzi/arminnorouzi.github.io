@@ -26,6 +26,10 @@ author_profile: true
 
 
 ### - Professional Certificates
+* Build Deep Learning Models with TensorFlow by Codecademy in November 2021 [[Certificate](https://www.codecademy.com/profiles/arminNorouziYengeje3353267212/certificates/5f85c4b9c431a800138a60e0)]
+* Build a Machine Learning Model with Python by Codecademy in November 2021 [[Certificate](https://www.codecademy.com/profiles/arminNorouziYengeje3353267212/certificates/5cab64c55f1de8039db366ef)]
+* Learn C++  by Codecademy in November 2021	 [[Certificate](https://www.codecademy.com/profiles/arminNorouziYengeje3353267212/certificates/b74a2390dfc4127fa5d43fe147425ad0)]
+* Probability Course by Codecademy in November 2021	 [[Certificate](https://www.codecademy.com/profiles/arminNorouziYengeje3353267212/certificates/1d8082be757299e1da03b664a757a4108)]
 * Deep Learning Specialization by deeplearning.ai on Coursera in August 20, 2021 (including 5 courses) [[Certificate](https://www.coursera.org/verify/specialization/8XLSWB76CGA8)]
 * Reinforcement Learning Specializationby University of Alberta and Alberta Machine Intelligence Institute (AMII) on  Coursera in April 2021 (including 4 courses) [[Certificate](https://www.coursera.org/account/accomplishments/specialization/certificate/UHKR664B4URQ)]
 * IBM Data Science Professional Certificate by IBM on Coursera in March 2021 (including 10 courses) [[Certificate](https://www.youracclaim.com/badges/8006f30b-3a41-451e-857f-fa6afaa101cb?source=linked_in_profile)]

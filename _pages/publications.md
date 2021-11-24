@@ -7,6 +7,8 @@ author_profile: true
 
 ## Peer-reviewed journal papers:
 
+* S. Shahpouri, **A.Norouzi**, C. Hayduk, R. Rezaei, M. Shahbakhti, and C. R. Koch, Hybrid Machine Learning approaches and a systematic model selection process for predicting soot emissions in compression ignition engines, _Energies_, 14(23) (2021), 7865. [<i class="fas fa-link"></i>](https://www.mdpi.com/1996-1073/14/23/7865) [<i class="fas fa-file-pdf"></i>](/files/pdf/energies-14-07865.pdf)
+
 * D. Gordon, **A. Norouzi**, G. Blomeyer, J. Bedei,  M.  Aliramezani, J. Andert,  and C.R.  Koch, Support Vector Machine Based Emissions Modeling using Particle Swarm Optimization for Homogeneous Charge Compression Ignition Engine, _International Journal of Engine Research_, (In press- accepted for publication). [<i class="fas fa-link"></i>](https://www.researchgate.net/publication/355873003_Support_Vector_Machine_Based_Emissions_Modeling_using_Particle_Swarm_Optimization_for_Homogeneous_Charge_Compression_Ignition_Engine) [<i class="fas fa-file-pdf"></i>](/files/pdf/HCCI_emission_modeling_using_ML.pdf)
 
 * **A. Norouzi**, H. Heidarifar, A. Borhan, M. Shahbakhti, C.R. Koch, Application of Model Predictive Control for Internal Combustion Engines (ICEs) Control: A review and future directions, _Energies_, 14(19) (2021): 6251. [<i class="fas fa-link"></i>](https://www.mdpi.com/1996-1073/14/19/6251) [<i class="fas fa-file-pdf"></i>](/files/pdf/energies-14-06251.pdf)
@@ -32,7 +34,7 @@ author_profile: true
 
 ## Peer-reviewed conference papers:
 
-* S. Shahpouri, **A.Norouzi**, C. Hayduk, R. Rezaei, M. Shahbakhti, and C. R. Koch, Soot emission modeling of a compression ignition engine using machine learning, _Modeling, Estimation and Control Conference (MECC 2021)_, University of Texasat Austin, Texas, United States. [<i class="fas fa-link"></i>](https://mecc2021.a2c2.org/) [<i class="fas fa-file-pdf"></i>](/files/pdf/Saeed_Soot_model_ML_2021-wfp.pdf)
+* S. Shahpouri, **A.Norouzi**, C. Hayduk, R. Rezaei, M. Shahbakhti, and C. R. Koch, Soot emission modeling of a compression ignition engine using machine learning, _Modeling, Estimation and Control Conference (MECC 2021)_, University of Texasat Austin, Texas, United States. [<i class="fas fa-link"></i>](https://www.researchgate.net/publication/355718550_Soot_Emission_Modeling_of_a_Compression_Ignition_Engine_Using_Machine_Learning) [<i class="fas fa-file-pdf"></i>](/files/pdf/Saeed_Soot_model_ML_2021-wfp.pdf)
 
 * **A.Norouzi**, D. Gordon, M. Aliramezani, C.R. Koch, Machine Learning-based Diesel Engine-Out NOx Reduction Using a plug-in PD-type Iterative Learning Control, _4th IEEE Conference on Control Technology and Applications (CCTA 2020)_,Montreal, QB, Canada. [<i class="fas fa-link"></i>](https://ieeexplore.ieee.org/abstract/document/9206277) [<i class="fas fa-file-pdf"></i>](/files/pdf/CCTA2020_v04-wfp.pdf)
 
