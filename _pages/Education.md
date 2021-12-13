@@ -9,12 +9,12 @@ author_profile: true
 
 * Ph.D. Candidate in Mechanical Engineering (May 2018 - Present)
     * University of Alberta, Edmonton, Canada
-    * Thesis:  Emission control of the internal combustion engine using AI/ML approaches
+    * Thesis: Machine Learning and Deep Learning for Modeling and Control ofInternal Combustion Engines
     * GPA: 3.8/4&#124;Expected completion date:  Dec 2022
 
 * M.Sc.  in Mechanical Engineering, Vehicle Dynamics and Control (Sep 2014 - Feb 2017)
     * K.N. Toosi University of Technology, Tehran, Iran
-    * Thesis:  Designing the desired path and navigating the vehicle in drowsy driving situation
+    * Thesis:  Path Planning and Navigation of a Vehicle with Drowsy Driving Situation
     * GPA: 4/4&#124;Ranked 1st
 
 * B.Sc.  in Mechanical Engineering (Sep 2010 - Aug 2014)
@@ -27,7 +27,8 @@ author_profile: true
 
 ### - Professional Certificates
 * Build Deep Learning Models with TensorFlow by Codecademy in November 2021 [[Certificate](https://www.codecademy.com/profiles/arminNorouziYengeje3353267212/certificates/5f85c4b9c431a800138a60e0)]
-* Build a Machine Learning Model with Python by Codecademy in November 2021 [[Certificate](https://www.codecademy.com/profiles/arminNorouziYengeje3353267212/certificates/5cab64c55f1de8039db366ef)]
+* Learn SQL Course by Codecademy in November 2021 [[Certificate](https://www.codecademy.com/profiles/arminNorouziYengeje3353267212/certificates/042a4e5884e3eb6ea1f2a12be6abb851)]
+ Build a Machine Learning Model with Python by Codecademy in November 2021 [[Certificate](https://www.codecademy.com/profiles/arminNorouziYengeje3353267212/certificates/5cab64c55f1de8039db366ef)]
 * Learn C++  by Codecademy in November 2021	 [[Certificate](https://www.codecademy.com/profiles/arminNorouziYengeje3353267212/certificates/b74a2390dfc4127fa5d43fe147425ad0)]
 * Probability Course by Codecademy in November 2021	 [[Certificate](https://www.codecademy.com/profiles/arminNorouziYengeje3353267212/certificates/1d8082be757299e1da03b664a757a4108)]
 * Deep Learning Specialization by deeplearning.ai on Coursera in August 20, 2021 (including 5 courses) [[Certificate](https://www.coursera.org/verify/specialization/8XLSWB76CGA8)]
