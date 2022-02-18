@@ -49,7 +49,7 @@ author_profile: true
 * **A.Norouzi**, C.R. Koch,  Robotic  manipulator  control  using  PD-type  fuzzy  iterative  learning  control, _32nd Canadian Conference on Electrical & Computer Engineering (CCECE)_, May 5-8, 2019, Edmonton, AB, Canada. [<i class="fas fa-link"></i>](https://ieeexplore.ieee.org/document/8861721) [<i class="fas fa-file-pdf"></i>](/files/pdf/IEEE_CCECE_2019_v6-wfp.pdf)
 
 
-## Technical presentation & workshops (refereed abstract & oral presentation)
+## Technical presentations & workshops (refereed abstract & oral presentation)
 * **A.Norouzi**, M. Shahbakhti, and C. R. Koch, Machine Learning Control Workshop, Canadian Society for  Mechanical Engineering International Congress (CSME), June 5-8, 2022, Edmonton, Canada.
 * J. Mcnally, D. Gordon, **A.Norouzi**, M. Shahbakhti, and C. R. Koch, Experimental Study of Hydrogen Diesel Dual Fuel Engine  Characterization, Canadian Society for Mechanical Engineering International Congress  (CSME),  June  5-8,  2022, Edmonton, Canada.
 * **A.Norouzi**, S. Shahpouri, D. Gordon, A. Winkler, E. Nuss, M. Shahbakhti, and  C. R. Koch,  Deep Learning and Nonlinear  Model Predictive Control Integration for Compression Ignition Engine  Emission  Reduction,  Canadian  Society for Mechanical Engineering International Congress (CSME), June 5-8, 2022, Edmonton, Canada.
