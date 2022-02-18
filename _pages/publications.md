@@ -61,7 +61,7 @@ author_profile: true
 * **A.Norouzi**, M. Shahbakhti, C.R. Koch, Machine Learning-Based Diesel Engine-Out Emissions Model and Control Using the Learning-Based Control Technique, _WCX SAE World Congress_, April 13, 2021, Detroit, USA. [<i class="fas fa-file-pdf"></i>](/files/pdf/21PFL-0760_submitted.pdf)
 
 
-## Workshops, Posters & non-refereed conference papers
+## Technical Posters
 * D. Gordon, **A.Norouzi**, C.R. Koch, AI-based Advance Control Methods for next generation combustion engines, _2021 Future Energy Systems Research Symposium_, Sept 20, 2021, Edmonton, Canada. [<i class="fas fa-file-pdf"></i>](/files/pdf/FES Poster 2021_vertical.pdf)
 * M.  Aliramezani, **A.Norouzi**,  D.  Gordon,  C.R.  Koch,  Emission  reduction  of  internal  combustion  engines  with  advancedcontrol and machine learning techniques,_Future Energy Systems Real World Industry Mixer_, Feb 20, 2020. [<i class="fas fa-file-pdf"></i>](/files/pdf/MA_FESLighning2020_V01.pdf)]
 * D.  Gordon, **A.Norouzi**,  M.  Aliramezani,  C.R.  Koch,  Combustion  Control  Research  –University of Alberta, _Canadian Graduate Engineering Consortium_, Sept 2019. [<i class="fas fa-file-pdf"></i>](/files/pdf/CEGC_2019_V02.pdf)
