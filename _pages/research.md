@@ -9,20 +9,19 @@ redirect_from:
 
 
 ### Artificial Intelligent
-* Machine learning and deep learning application in automotive and robotics control
+* Applied machine learning and deep learning 
 * Reinforcement learning application in automotive and robotics control 
+
+### Control Systems
+* Machine learning control
+* Model predictive control
+* Nonlinear and robust control
 
 ### Automotive Control Systems
 * Autonomous and connected vehicles
 * Advanced driver-assistance systems (ADAS)
 * Electric and hybrid electric vehicles
 * Advanced internal combustion engines
-
-
-### Control Systems
-* Machine learning control
-* Model predictive control
-* Nonlinear and robust control
 
 ### Robotics Control
 * Nonlinear motion control 

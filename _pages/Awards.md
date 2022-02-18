@@ -4,6 +4,9 @@ title: "Honors and Awards"
 permalink: /awards/
 author_profile: true
 ---
+### - Alberta Graduate Excellence Scholarship
+* Graduate Students’ Association, University of Alberta, Canada, February 2021 
+    * The purpose of this award is to recognize research communication excellence at the graduate level.
 
 ### - Alberta Graduate Excellence Scholarship
 * Government of Alberta, Canada, November 2021 

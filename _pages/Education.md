@@ -26,6 +26,10 @@ author_profile: true
 
 
 ### - Professional Certificates
+* Graph Neural Network  by Udemy February 2022 [[Certificate](https://www.udemy.com/certificate/UC-c40adf6e-71ff-401c-b467-9d5a46c1141e/)]
+* Deep Learning: GANs and Variational Autoencoders by Udemy January 2022 [[Certificate](https://www.udemy.com/certificate/UC-14aeb38b-eabf-4e3a-ab4e-e527292e5008/)]
+* Deep learning for image segmentation using Tensorflow 2 by Udemy January 2022 [[Certificate](https://www.udemy.com/certificate/UC-cf063fcb-feca-4d00-970c-6b9c3d92c566/)]
+* Deep Learning for Computer Vision with TensorFlow 2 by Udemy January 2022 [[Certificate](https://www.udemy.com/certificate/UC-4c67923d-6c37-4dfa-b457-919ef8f02cfe/)]
 * Build Deep Learning Models with TensorFlow by Codecademy in November 2021 [[Certificate](https://www.codecademy.com/profiles/arminNorouziYengeje3353267212/certificates/5f85c4b9c431a800138a60e0)]
 * Learn SQL Course by Codecademy in November 2021 [[Certificate](https://www.codecademy.com/profiles/arminNorouziYengeje3353267212/certificates/042a4e5884e3eb6ea1f2a12be6abb851)]
 * Build a Machine Learning Model with Python by Codecademy in November 2021 [[Certificate](https://www.codecademy.com/profiles/arminNorouziYengeje3353267212/certificates/5cab64c55f1de8039db366ef)]
