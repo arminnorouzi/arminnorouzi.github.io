@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Armin Norouzi"
 title_separator          : "-"
-name                     : &name "Armin Norouzi"
+name                     : &name "Armin Norouzi Test"
 description              : &description "Machine Learning Researcher | Automotive Control System Developer"
 url                      : https://arminnorouzi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
