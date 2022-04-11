@@ -4,7 +4,8 @@ title: "Honors and Awards"
 permalink: /awards/
 author_profile: true
 ---
-### - Alberta Graduate Excellence Scholarship
+
+### - A Martha Piper Award
 * Graduate Students’ Association, University of Alberta, Canada, February 2021 
     * The purpose of this award is to recognize research communication excellence at the graduate level.
 

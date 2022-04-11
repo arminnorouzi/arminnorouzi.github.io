@@ -9,10 +9,13 @@ redirect_from:
 ---
 
 
-I am currently a Ph.D. Candidate at the University of Alberta in the mechanical engineering program. I am working on a future energy system project to reduce internal combustion engines' emissions using Hydrogen and bio-fuel, employing AI and control theory. I am working to develop control strategies utilizing AI to decrease diesel engine emissions in the real-driving cycle.
+I am currently working as a machine learning researcher at the Energy Mechatronics Lab in my Ph.D. program at the University of Alberta. Since 2018, I have been working on developing ML systems in engineering applications, including automotive control systems and manipulated robotic systems. 
 
-I am passionate about AI and data science and have extensive experience in MATLAB and Python. I have successfully passed the IBM data science specialization, and the deep learning specialization offered by DEEPLEARNING.AI. I am also highly skilled in writing documentation using Latex and published articles in highly ranked conferences and journals with +200 citations and h-index of 8. I am eager to learn and adapt to new environments.
+I am passionate about AI and data science and have extensive experience in MATLAB and Python. I have developed models using modeling in Python from scratch or using a standard framework such as TensorFlow and Scikit-learn. I am also skilled in writing documentation using Latex and published articles in highly ranked conferences and journals with +220 citations and an h-index of 9. Here is a summary of my skills:
 
-You can download a PDF copy of my CV [here](/files/pdf/ArminNorouzi_wp.pdf).
+- **Programming Languages:** MATLAB (Expert), Python (Expert), R (Intermediate), SQL (Intermediate), C++ (Beginner)
+- **General:** LaTeX, Git, Jupyter Notebook, Google Colab, SQLite
+- **Python Libraries:** Scikit-learn (Expert), Keras (Expert), TensorFlow (Expert), NLTK (Intermediate), Pandas (Expert), NumPy (Expert)
+- **Soft Skills:** Time management, Teamwork, Communication, Problem-solving, Creativity, Leadership
 
 
