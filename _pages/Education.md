@@ -9,7 +9,7 @@ author_profile: true
 
 * Ph.D. in Mechanical Engineering (May 2018 - August 2022)
     * University of Alberta, Edmonton, Canada
-    * Thesis: Machine Learning and Deep Learning for Modeling and Control ofInternal Combustion Engines
+    * Thesis: Machine Learning and Deep Learning for Modeling and Control ofInternal Combustion Engines [<i class="fas fa-link"></i>](https://era.library.ualberta.ca/items/7178fa06-8d1f-4b5c-87c5-ff4620bb93da)
     * GPA: 3.8/4
 
 * M.Sc. in Mechanical Engineering, Vehicle Dynamics and Control (September 2014 - February 2017)

@@ -7,6 +7,10 @@ author_profile: true
 
 ## Peer-reviewed journal papers:
 
+* **A. Norouzi**, S. Shahpouri, D. Gordon, A. Winkler, E. Nuss, J. Andert, M. Shahbakhti, and C. R. Koch, Deep Learning based Model Predictive Control for Compression Ignition Engines, Control Engineering Practice, October 2022. [<i class="fas fa-link"></i>](https://www.sciencedirect.com/science/article/pii/S0967066122001472)
+   
+* S. Shahpouri, **A. Norouzi**, C. Hayduk, A. Fandakov, R. Rezaei, M. Shahbakhtia, C. R. Koch,  Laminar Flame Speed Modeling for Low Carbon Fuels Using Machine Learning Methods, Fuel, October 2022. [<i class="fas fa-link"></i>](https://www.sciencedirect.com/science/article/pii/S0016236122030113)
+
 * S. Shahpouri, **A.Norouzi**, C. Hayduk, R. Rezaei, M. Shahbakhti, and C. R. Koch, Hybrid Machine Learning approaches and a systematic model selection process for predicting soot emissions in compression ignition engines, _Energies_, 14(23) (2021), 7865. [<i class="fas fa-link"></i>](https://www.mdpi.com/1996-1073/14/23/7865) [<i class="fas fa-file-pdf"></i>](/files/pdf/energies-14-07865.pdf)
 
 * D. Gordon, **A. Norouzi**, G. Blomeyer, J. Bedei,  M.  Aliramezani, J. Andert,  and C.R.  Koch, Support Vector Machine Based Emissions Modeling using Particle Swarm Optimization for Homogeneous Charge Compression Ignition Engine, _International Journal of Engine Research_, (In press- accepted for publication). [<i class="fas fa-link"></i>](https://journals.sagepub.com/doi/10.1177/14680874211055546) [<i class="fas fa-file-pdf"></i>](/files/pdf/HCCI_emission_modeling_using_ML.pdf)
@@ -30,11 +34,29 @@ author_profile: true
 
 * H. Biglari, **A.Norouzi**, Design and Numerical Analysis of Composite Pressure Vessel based on Unit Load Method, _Journal of Mechanical Engineering (University of Tabriz)_, 2015, page 1-13 (In Persian). [<i class="fas fa-link"></i>](https://www.researchgate.net/publication/293645262_Design_and_Numerical_Analysis_of_Composite_Pressure_Vessel_based_on_Unit_Load_Method_in_persian) [<i class="fas fa-file-pdf"></i>](/files/pdf/JMEUT40541445545800.pdf)
 
+## Manuscript in preparation:
+
+* **A. Norouzi**, H. Heidarifar, A. Borhan, M. Shahbakhti, C.R. Koch,  Machine Learning and Model Predictive Control Integration in Automotive Control System:  A review and future directions, \textit{Engineering Application of Artificial Intelligent}, (Submitted on June 20, 2022).
+    
+* **A. Norouzi**, S. Shahpouri, M. Shahbakhti, and C. R. Koch, Safe Deep Reinforcement Learning in Diesel Engine Emission Control, \textit{Proceedings of the Institution of Mechanical Engineers, Part I: Journal of Systems and Control Engineering} (Submitted on April 4, 2022).
+    
+* **A. Norouzi**, D. Gordon, A. Winkler, J. McNally, E. Nuss, J. Andert, M. Shahbakhti, and C. R. Koch, Experimental Implementation of Deep Neural Network-based Nonlinear Model Predictive Control in Diesel Engine Emission Control, \textit{Transaction on Control Systems Technology} (Submitted on May 10, 2022).
+
+* D.C. Gordon, A. Winkler, **A. Norouzi**, J. Frey, M. Diehl, J. Andert and C. R. Koch, Benchmarking of Rapid Prototyping Hardware for Nonlinear Optimal (work in Progress)
+
+* D.C. Gordon, A. Winkler, **A. Norouzi**, J. Andert and C. R. Koch, Realtime Long Short Term Memory Nonlinear Model Predictive Control for HCCI Performance and Emissions (work in Progress)
+
+* D.C. Gordon, A. Winkler, **A. Norouzi**, J. Andert and C. R. Koch, Machine Learning based NMPC for Hydrogen Diesel Dual fuel Combustion (work in Progress)
+    \end{enumerate}}
+    \vspace{2mm}
 
 
 ## Peer-reviewed conference papers:
 
-* S. Shahpouri, **A.Norouzi**, C. Hayduk, R. Rezaei, M. Shahbakhti, and C. R. Koch, Soot emission modeling of a compression ignition engine using machine learning, _Modeling, Estimation and Control Conference (MECC 2021)_, University of Texasat Austin, Texas, United States. [<i class="fas fa-link"></i>](https://www.researchgate.net/publication/355718550_Soot_Emission_Modeling_of_a_Compression_Ignition_Engine_Using_Machine_Learning) [<i class="fas fa-file-pdf"></i>](/files/pdf/Saeed_Soot_model_ML_2021-wfp.pdf)
+* **A. Norouzi**, S. Shahpouri, D. Gordon, A. Winkler, E. Nuss, J. Andert, M. Shahbakhti, and C. R. Koch, Machine Learning Integrated with Model Predictive Control for Imitative Optimal Control of Compression Ignition Engines, IFAC 10th Symposium on Advances in Automotive Control (AAC22), August 2022. [<i class="fas fa-link"></i>](https://www.sciencedirect.com/science/article/pii/S2405896322022881) 
+
+
+* S. Shahpouri, **A.Norouzi**, C. Hayduk, R. Rezaei, M. Shahbakhti, and C. R. Koch, Soot emission modeling of a compression ignition engine using machine learning, _Modeling, Estimation and Control Conference (MECC 2021)_, University of Texasat Austin, Texas, United States. [<i class="fas fa-link"></i>](https://www.sciencedirect.com/science/article/pii/S2405896321023181) [<i class="fas fa-file-pdf"></i>](/files/pdf/Saeed_Soot_model_ML_2021-wfp.pdf)
 
 * **A.Norouzi**, D. Gordon, M. Aliramezani, C.R. Koch, Machine Learning-based Diesel Engine-Out NOx Reduction Using a plug-in PD-type Iterative Learning Control, _4th IEEE Conference on Control Technology and Applications (CCTA 2020)_,Montreal, QB, Canada. [<i class="fas fa-link"></i>](https://ieeexplore.ieee.org/abstract/document/9206277) [<i class="fas fa-file-pdf"></i>](/files/pdf/CCTA2020_v04-wfp.pdf)
 
