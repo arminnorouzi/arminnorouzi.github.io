@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Teaching & Workshops"
+title: "Teaching"
 permalink: /teaching/
 author_profile: true
 ---
@@ -15,11 +15,8 @@ _University of Alberta, Edmonton, Canada_
 _University of Alberta, Edmonton, Canada_
     * Deep learning crash course with Tensorflow implementation with +120 attendees
 
-### -Course Development: Machine Learning Course (MECE 610)
-_University of Alberta, Edmonton, Canada_
-* Designed 50+ examples of ML basics, ANN, CNN, SVM, and deep learning including theoretical detail
-* Developed 3 tutorials on Scikit-learn, TensorFlow, and PyTorch with examples in computer vision, natural language processing, and time series estimation
 
+## Teaching
 
 ### - Mechanical Measurements (MECE 300)
 _University of Alberta, Edmonton, Canada_
