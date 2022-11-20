@@ -7,23 +7,22 @@ redirect_from:
   - /workexp.html
 ---
 
+### Data Scientist (June 2022 – Present)
 
-### Artificial Intelligent
-* Applied machine learning and deep learning 
-* Reinforcement learning application in automotive and robotics control 
+_Skyjack Inc, Guelph, Canada_
 
-### Control Systems
-* Machine learning control
-* Model predictive control
-* Nonlinear and robust control
+* Collaborated as part of the R&D team and partnered with service, product, and marketing to design, develop and deploy end-to-end ML pipelines and test to track business metrics 
+* Led a team of two interns and collaborated with the DevOps engineering team to deliver data-driven projects
+* Built and productionized ML model pipelines for online prediction of current and electric machines’ battery level with an accuracy of 91%
+* Performed in-depth analytics delivered in the form of visualization through the Plotly dashboard to optimize team efficiency up to 80%
+* Incorporated Apache Kafka, SQL database, and web API for creating automated quarter reports 5x faster than manual reports
 
-### Automotive Control Systems
-* Autonomous and connected vehicles
-* Advanced driver-assistance systems (ADAS)
-* Electric and hybrid electric vehicles
-* Advanced internal combustion engines
+### Applied Machine Learning Scientist (January 2019 – May 2022)
 
-### Robotics Control
-* Nonlinear motion control 
-* Nonlinear and robust control 
+_Energy Mechatronics Lab, Edmonton, Canada_
 
+
+* Established end-to-end ML solutions in the domain of robotic, automotive, and control engineering to make controller design up to 50x faster 
+* Led research in 3 projects for R&D industrial partners such as MMP lab (RWTH Aachen), IAV GmbH, and Cummins and 
+* Supervised a team of two MSc students and one Ph.D. student in industrial projects
+* Published 20+ journal and conference publications with 300+ citations and an h-index of 12 based on projects in top journals and conferences, such as the journal of engineering applications of AI

@@ -224,6 +224,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _workexp
+  - scope:
+      path: ""
+      type: workexp
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _publications
   - scope:
       path: ""
