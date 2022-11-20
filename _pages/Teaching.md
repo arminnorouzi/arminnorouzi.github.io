@@ -1,60 +1,67 @@
 ---
 layout: archive
-title: "Teaching"
+title: "Teaching & Workshops"
 permalink: /teaching/
 author_profile: true
 ---
 
-### - Machine Learning Control with Engineering Applications (MECE 610)
-_Development of control-oriented dynamic models using machine learning techniques. Optimal, adaptive and model predictive control techniques that are solved using methods off machine learning including support vector machines, neural networks, reinforcement ;learning and other methods of machine learning. Applications in broad linear and nonlinear engineering systems._
-* Teaching and course preparation assistant
-    * _Fall 2021_ - _University of Alberta, Edmonton, Canada_
-        * Developed Machine Learning and Deep Learning examples in Python and Matlab
-        * Documented Machine Learning and Deep Learning concepts including proof of equations
-        * Designed assignments, quizzes, and course projects 
-        * Guided students in solving assignments, quizzes, and course projects
+## Workshops
+
+### -Computer Vision and Transfer Learning Workshop (October 11, 2022)
+_University of Alberta, Edmonton, Canada_
+    * Develop CNN models using Tensorflow and Transfer Learning using Feature Extraction and Fine Tunning using Resnet 50 and EfficientNet with +20 attendees
+
+### -Machine Learning Workshop at CSME Congress 2022 (June 6, 2022)
+_University of Alberta, Edmonton, Canada_
+    * Deep learning crash course with Tensorflow implementation with +120 attendees
+
+### -Course Development: Machine Learning Course (MECE 610)
+_University of Alberta, Edmonton, Canada_
+* Designed 50+ examples of ML basics, ANN, CNN, SVM, and deep learning including theoretical detail
+* Developed 3 tutorials on Scikit-learn, TensorFlow, and PyTorch with examples in computer vision, natural language processing, and time series estimation
+
 
 ### - Mechanical Measurements (MECE 300)
-_Characterization and behavior of measuring systems. Statistics and analysis of measurement data; measurement techniques applied to fundamental mechanical engineering phenomena._
+_University of Alberta, Edmonton, Canada_
 * Teaching assistant
-    * _Spring & Summer 2021_ - _University of Alberta, Edmonton, Canada_
+    * _Spring & Summer 2021_
         * Held seminars to solve sample questions about lectures
         * Provided guidance to student in assignments, projects, and quizzes
 
 ### - Feedback Control Design Dynamic System (MECE 420)
-_Design of linear feedback control systems for command-following error, stability, and dynamic response specifications. PID, Root-locus, frequency response and design techniques. An introduction to structural design limitations. Examples emphasizing Mechanical Engineering systems. Some use of computer aided design with MATLAB/Simulink._ 
+_University of Alberta, Edmonton, Canada_
 * Teaching assistant
-    * _Fall 2018 &#124; Winter 2019 &#124; Fall 2019 &#124; Fall 2020 &#124; Winter 2021_ - _University of Alberta_
+    * _Fall 2018 &#124; Winter 2019 &#124; Fall 2019 &#124; Fall 2020 &#124; Winter 2021_
         * Held control implementation lab sessions using Quanser Qube devices
 * Course preparation Assistant
-    * _Fall 2020_ - _University of Alberta, Edmonton, Canada_
+    * _Fall 2020_
         * Updated course material for online delivery due to the COVID-19 online classes
         * Transferring course example simulation to Python using Jupyter notebook
 
 ### - Iterative Learning Control (MECE 614)
-_Mathematical preliminaries (discrete time systems). Stability and transient response of Iterative Learning Control (ILC). Design of ILC in both the time and frequency domain. Convergence and design of repetitive control._
+_University of Alberta, Edmonton, Canada_
 * Teaching and course preparation assistant 
-    * _Winter 2020_ - _University of Alberta, Edmonton, Canada_
+    * _Winter 2020_
         * Designed assignments, quizzes, and course projects 
         * Provided guidance to student in assignments, projects, and quizzes
 
 ### - System Dynamics: Bondgraph modeling method
-_ Modeling dynamic system using Bond graph method. Bond graphs are multi-energy domain and example of this course includes dynamics, thermodynamics, and electric energy couples.  Examples emphasizing Mechanical Engineering systems. Some use of computer aided design with MATLAB and 20sim._
+_K.N. Toosi University of Technology, Tehran, Iran_
 * Teaching assistant 
-    * _Fall 2016_ - _K.N. Toosi University of Technology, Tehran, Iran_
+    * _Fall 2016_
         * Held seminars to solve sample questions about lectures
         * Provided guidance to student in assignments, projects, and quizzes
 
 ### - Advanced Vibration
-_This course build on a basic understanding of single degree of freedom linear vibration theory, to provide an in-depth understanding of advanced topics in multi-degree of freedom systems, distributed parameter systems, random vibration, and Vibrations of Continuous Systems. This course is intended to provide knowledge in the above advanced topics and aid students in their research as well as in the application of the methods to mechanical systems in practice._
+_K.N. Toosi University of Technology, Tehran, Iran_
 * Teaching assistant 
-    * Winter 2016_ - _K.N. Toosi University of Technology, Tehran, Iran_
+    * Winter 2016_
         * Held seminars to solve sample questions about lectures
         * Provided guidance to student in assignments, projects, and quizzes
 
 ### - Advanced Engineering Mathematics
-_The course applies advanced mathematical tools to solve electrical engineering problems. Mathematical tools include vector analysis, matrices, different coordinate systems, multivariate differential equations, Partial differential equation, Laplace transforms, Fourier analysis, and Dirac delta functions._
+_K.N. Toosi University of Technology, Tehran, Iran_
 * Teaching assistant 
-    * _Fall 2015_ - _K.N. Toosi University of Technology, Tehran, Iran_
+    * _Fall 2015_
         * Held seminars to solve sample questions about lectures
         * Provided guidance to student in assignments, projects, and quizzes

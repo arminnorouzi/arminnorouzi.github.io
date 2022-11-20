@@ -8,14 +8,27 @@ redirect_from:
   - /about.html
 ---
 
+I am a Data Scientist and Machine Learning Engineer with 4+ years of experience developing and deploying end-to-end data-driven solutions on edge and cloud. I have 6+ years of experience developing Python code and 2+ utilizing SQL. I have developed models by hand-coding equations from scratch or using frameworks such as TensorFlow, PyTorch, Scikit-learn, and Spark MLlib. I also worked with different AWS platforms, such as AWS SakeMaker, S3, EC2, and Lambda, to develop and deploy ML models. As an engineer, I like creating end-to-end solutions for businesses and bringing data to practical decisions for end users. 
 
-I am currently working as a machine learning researcher at the Energy Mechatronics Lab in my Ph.D. program at the University of Alberta. Since 2018, I have been working on developing ML systems in engineering applications, including automotive control systems and manipulated robotic systems. 
+I like teaching and content creation in the domain of data and machine learning. I created a Machine Learning course at the University of Alberta, including ML basics, computer vision, natural language processing, and time series. I developed 50+ practical examples. In addition, I hold two workshops with 120+ attendees in ML, computer vision, and transfer learning. 
 
-I am passionate about AI and data science and have extensive experience in MATLAB and Python. I have developed models using modeling in Python from scratch or using a standard framework such as TensorFlow and Scikit-learn. I am also skilled in writing documentation using Latex and published articles in highly ranked conferences and journals with +220 citations and an h-index of 9. Here is a summary of my skills:
+These are my summary of skills. 
 
-- **Programming Languages:** MATLAB (Expert), Python (Expert), R (Intermediate), SQL (Intermediate), C++ (Beginner)
-- **General:** LaTeX, Git, Jupyter Notebook, Google Colab, SQLite
-- **Python Libraries:** Scikit-learn (Expert), Keras (Expert), TensorFlow (Expert), NLTK (Intermediate), Pandas (Expert), NumPy (Expert)
-- **Soft Skills:** Time management, Teamwork, Communication, Problem-solving, Creativity, Leadership
+**Programming Languages:**
+- Python (Advanced)
+- SQL (Advanced)
+- R (Experienced)
+- Java (Experienced)
 
-
+**Tools and Frameworks:**
+- AWS (S3, SageMaker, ECR)
+- Python (Pandas, NumPy)
+- Scikit-learn (Advanced)
+- TensorFlow (Advanced)
+- PyTorch (Experienced)
+- Docker (Experienced)
+- MLlib - Spark (Experienced)
+- Apache Kafka (Experienced)
+- Git (Advanced)
+- LaTeX (Advanced)
+- Google Colaboratory (Advanced)

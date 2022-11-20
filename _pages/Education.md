@@ -7,23 +7,23 @@ author_profile: true
 
 ### - Education
 
-* Ph.D. Candidate in Mechanical Engineering (May 2018 - Present)
+* Ph.D. in Mechanical Engineering (May 2018 - August 2022)
     * University of Alberta, Edmonton, Canada
     * Thesis: Machine Learning and Deep Learning for Modeling and Control ofInternal Combustion Engines
-    * GPA: 3.8/4&#124;Expected completion date: Aug 2022
+    * GPA: 3.8/4&#124; 
 
-* M.Sc.  in Mechanical Engineering, Vehicle Dynamics and Control (Sep 2014 - Feb 2017)
+* M.Sc. in Mechanical Engineering, Vehicle Dynamics and Control (September 2014 - February 2017)
     * K.N. Toosi University of Technology, Tehran, Iran
     * Thesis:  Path Planning and Navigation of a Vehicle with Drowsy Driving Situation
     * GPA: 4/4&#124;Ranked 1st
 
-* B.Sc.  in Mechanical Engineering (Sep 2010 - Aug 2014)
+* B.Sc.  in Mechanical Engineering (September 2010 - August 2014)
     * University of Tabriz, Tabriz, Ira
     * Thesis:  Design and numerical analysis of composite pressure vessel
     * GPA: 3.28/4&#124;Ranked 17th among 111 students
 
 
-
+<!-- 
 
 ### - Professional Certificates
 * Graph Neural Network  by Udemy February 2022 [[Certificate](https://www.udemy.com/certificate/UC-c40adf6e-71ff-401c-b467-9d5a46c1141e/)]
@@ -47,4 +47,4 @@ author_profile: true
 * Machine Learning by Stanford University on Coursera in May 2019 [[Certificate](https://www.coursera.org/account/accomplishments/certificate/MWZJJKHF4RPR)]
 * Managing  Major  Engineering  Projects  Specialization by  University  of  Leeds  on  Coursera  in  Dec  2018  (including  3courses) [[Certificate](https://www.coursera.org/account/accomplishments/specialization/certificate/W858BDRLWCPA)]
 
-
+ -->
