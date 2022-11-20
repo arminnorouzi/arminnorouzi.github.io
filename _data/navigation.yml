@@ -1,22 +1,22 @@
 # main links links
 main:
+  - title: "Work Experience"
+    url: /workexp/ 
+
+  - title: "Projects"
+    url: /projects/ 
+
   - title: "Education"
     url: /education/
 
-  - title: "Work Experience"
-    url: /workexp/    
-    
-  - title: "Teaching"
-    url: /teaching/ 
-
   - title: "Awards"
-    url: /awards/ 
-  
+    url: /awards/
+
+  - title: "Community Involvement"
+    url: /community/
+
   - title: "Publications"
     url: /publications/
 
-  - title: "Community Involvement"
-    url: /community/ 
-    
-  - title: "Contact"
-    url: /contact/
+  - title: "Teaching"
+    url: /teaching/
