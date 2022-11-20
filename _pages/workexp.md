@@ -1,10 +1,10 @@
 ---
-permalink: /research/
-title: "Research Interests"
+permalink: /workexp/
+title: "Work Experience"
 author_profile: true
 redirect_from: 
   - /md/
-  - /research.html
+  - /workexp.html
 ---
 
 

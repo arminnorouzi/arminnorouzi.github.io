@@ -10,7 +10,7 @@ author_profile: true
 * Ph.D. in Mechanical Engineering (May 2018 - August 2022)
     * University of Alberta, Edmonton, Canada
     * Thesis: Machine Learning and Deep Learning for Modeling and Control ofInternal Combustion Engines
-    * GPA: 3.8/4&#124; 
+    * GPA: 3.8/4
 
 * M.Sc. in Mechanical Engineering, Vehicle Dynamics and Control (September 2014 - February 2017)
     * K.N. Toosi University of Technology, Tehran, Iran
