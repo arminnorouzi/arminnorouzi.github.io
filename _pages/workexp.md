@@ -13,7 +13,6 @@ _Skyjack Inc, Guelph, Canada_
 
 * Collaborated as part of the R&D team and partnered with service, product, and marketing to design, develop and deploy end-to-end ML pipelines and test to track business metrics 
 * Led a team of two interns and collaborated with the DevOps engineering team to deliver data-driven projects
-* Built and productionized ML model pipelines for online prediction of current and electric machines’ battery level with an accuracy of 91%
 * Performed in-depth analytics delivered in the form of visualization through the Plotly dashboard to optimize team efficiency up to 80%
 * Incorporated Apache Kafka, SQL database, and web API for creating automated quarter reports 5x faster than manual reports
 
