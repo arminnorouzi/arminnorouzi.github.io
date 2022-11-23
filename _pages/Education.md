@@ -7,19 +7,19 @@ author_profile: true
 
 
 ### Ph.D. in Mechanical Engineering (May 2018 - August 2022)
-    * University of Alberta, Edmonton, Canada
-    * Thesis: Machine Learning and Deep Learning for Modeling and Control ofInternal Combustion Engines [<i class="fas fa-link"></i>](https://era.library.ualberta.ca/items/7178fa06-8d1f-4b5c-87c5-ff4620bb93da)
-    * GPA: 3.8/4
+* University of Alberta, Edmonton, Canada
+* Thesis: Machine Learning and Deep Learning for Modeling and Control ofInternal Combustion Engines [<i class="fas fa-link"></i>](https://era.library.ualberta.ca/items/7178fa06-8d1f-4b5c-87c5-ff4620bb93da)
+* GPA: 3.8/4
 
 ### M.Sc. in Mechanical Engineering, Vehicle Dynamics and Control (September 2014 - February 2017)
-    * K.N. Toosi University of Technology, Tehran, Iran
-    * Thesis:  Path Planning and Navigation of a Vehicle with Drowsy Driving Situation
-    * GPA: 4/4&#124;Ranked 1st
+* K.N. Toosi University of Technology, Tehran, Iran
+* Thesis:  Path Planning and Navigation of a Vehicle with Drowsy Driving Situation
+* GPA: 4/4&#124;Ranked 1st
 
 ### B.Sc.  in Mechanical Engineering (September 2010 - August 2014)
-    * University of Tabriz, Tabriz, Ira
-    * Thesis:  Design and numerical analysis of composite pressure vessel
-    * GPA: 3.28/4&#124;Ranked 17th among 111 students
+* University of Tabriz, Tabriz, Ira
+* Thesis:  Design and numerical analysis of composite pressure vessel
+* GPA: 3.28/4&#124;Ranked 17th among 111 students
 
 
 <!-- 

@@ -5,8 +5,6 @@ permalink: /community/
 author_profile: true
 ---
 
-## Community Service
-
 ### Faculty of Graduate Studies and Research (FGSR)
 _University of Alberta, Edmonton, Canada (Sep 2020 - Aug 2021)_
 * Graduate students representative FGSR academic appeals committee
@@ -36,17 +34,17 @@ _Scientific Association of Faculty of Mechanical Engineering, University Tabriz,
 * Organizer and designer of the "Competition of Engineering Day" (Feb 2013)
 
 
-## Reviewing/Refereeing Activities
-### Journals
-* IEEE Transactions on Vehicular Technology (IEEE)
-* IEEE Transactions on Intelligent Vehicles (IEEE)
-* IEEE Transactions on Industrial Electronics (IEEE)
-* Journal of Dynamic Systems, Measurement, and Control (ASME)
-* International Journal of Robust and Nonlinear Control (Wiley)
-* Mechatronics  (Elsevier)
-* Control Engineering Practice  (Elsevier)
-* Journal of Automobile Engineering, Proc. of IMechE, Part D (SAGE)
-* Journal of Systems and Control Engineering, Proc. of IMechE, Part I (SAGE)
-* Journal of Aerospace Engineering , Proc. of IMechE, Part G (SAGE)
-### Conferences
-*  IFAC World Congress 2020
+### Reviewing/Refereeing Activities
+* Journals
+    * IEEE Transactions on Vehicular Technology (IEEE)
+    * IEEE Transactions on Intelligent Vehicles (IEEE)
+    * IEEE Transactions on Industrial Electronics (IEEE)
+    * Journal of Dynamic Systems, Measurement, and Control (ASME)
+    * International Journal of Robust and Nonlinear Control (Wiley)
+    * Mechatronics  (Elsevier)
+    * Control Engineering Practice  (Elsevier)
+    * Journal of Automobile Engineering, Proc. of IMechE, Part D (SAGE)
+    * Journal of Systems and Control Engineering, Proc. of IMechE, Part I (SAGE)
+    * Journal of Aerospace Engineering , Proc. of IMechE, Part G (SAGE)
+* Conferences
+    * IFAC World Congress 2020
