@@ -22,6 +22,6 @@ _Energy Mechatronics Lab, Edmonton, Canada_
 
 
 * Established end-to-end ML solutions in the domain of robotic, automotive, and control engineering to make controller design up to 50x faster 
-* Led research in 3 projects for R&D industrial partners such as MMP lab (RWTH Aachen), IAV GmbH, and Cummins and 
+* Led research in 3 projects for R&D industrial partners such as MMP lab (RWTH Aachen), IAV GmbH, and Cummins
 * Supervised a team of two MSc students and one Ph.D. student in industrial projects
 * Published 20+ journal and conference publications with 300+ citations and an h-index of 12 based on projects in top journals and conferences, such as the journal of engineering applications of AI
