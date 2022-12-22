@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-### Data Scientist (December 2022 – present)
+### Machine Learning Engineer (December 2022 – present)
 
 _The Citco Group Limited, Toronto, Canada_
 
