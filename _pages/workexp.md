@@ -7,7 +7,17 @@ redirect_from:
   - /workexp.html
 ---
 
-### Data Scientist (June 2022 – Present)
+
+### Data Scientist (December 2022 – present)
+
+_The Citco Group Limited, Toronto, Canada_
+
+* Collaborated as part of the innovation technology team to deliver end-to-end ML solutions for different departments at Citco, such as Citco Bank and Citco Func Service
+* Implemented a trade reconciliation system called SMART, which utilized machine learning techniques to achieve a nearly 98% used to automate the manual process and improve efficiency
+* Deployed an end-to-end infrastructure for the Investor Relations (IR) project, using AWS CloudFormation, Codepipeline, Lambda, and Sagemaker to predict the legal entity from a given documents
+
+
+### Data Scientist (June 2022 – December 2022)
 
 _Skyjack Inc, Guelph, Canada_
 
