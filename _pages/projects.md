@@ -23,3 +23,21 @@ _Mechatronics in Mobile Propulsion (MMP), Aachen, Germany (Remote)_
 _IAV GmbH, Gifhorn, Germany (Remote)_
 
 * Automated a systematic method using K-means clustering algorithm to select the most accurate ML model based on application of model to decrease development time up to 8 times
+
+
+### Build Deep Learning Models with TensorFlow Projects (November 2021)
+
+* Built deep learning classifier using TensorFlow with Keras to predict forest cover type based only on cartographic variables ([GitHub](https://github.com/arminnorouzi/Forest-Cover-Type-Classification))
+* CNN-based classification of  Covid-19 and Pneumonia based on X-ray lung scans using TensorFlow with Keras ([GitHub](https://github.com/arminnorouzi/Covid19-classifier-X-rays))
+    
+### IBM Applied Data Science Capstone project: Edmonton’s Best neighborhood (March 2021) ([GitHub](https://github.com/arminnorouzi/IBM_DataScience_Projects))
+
+* Deployed web scraping using beautiful soup package of Python to collect Neighborhood name, postal code, and locations
+* Employed Foursquare API to mine features of Edmonton’s neighborhood and deployer K-means clustering algorithm
+
+
+### Technical report: AI and MPC Applications for Engine Control and Calibration (November 2020 – February 2021)
+_Cummins, Columbus, United States (Remote)
+* Analyzed state-of-the-art literature in the field of AI and MPC for automotive applications in collaboration with Cummins
+* Critical reviews of existing methods for implementing real-time adaptive learning 
+* Identified promising ML methods to address automotive industry challenges
