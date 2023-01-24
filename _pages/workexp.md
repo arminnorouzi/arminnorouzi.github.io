@@ -12,9 +12,10 @@ redirect_from:
 
 _The Citco Group Limited, Toronto, Canada_
 
-* Collaborated as part of the innovation technology team to deliver end-to-end ML solutions for different departments at Citco, such as Citco Bank and Citco Func Service
-* Implemented a trade reconciliation system called SMART, which utilized machine learning techniques to achieve a nearly 98% used to automate the manual process and improve efficiency
-* Deployed an end-to-end infrastructure for the Investor Relations (IR) project, using AWS CloudFormation, Codepipeline, Lambda, and Sagemaker to predict the legal entity from a given documents
+* Collaborated as part of the innovation technology team at The Citco Group Limited to deliver end-to-end ML solutions for different departments, such as Citco Bank and Citco Func Service.
+* Implemented and maintained a trade reconciliation system called SMART, utilizing machine learning techniques to achieve a nearly 98% automation rate, improving efficiency and productivity.
+* Deployed an end-to-end infrastructure for the Investor Relations (IR) project, using AWS CloudFormation, CodePipeline, Lambda, and SageMaker to predict the legal entity from a given document.
+* Utilized Apache Spark and Databricks for data processing, data transformation, and data cleaning, with experience working with large datasets and performing complex data operations efficiently.
 
 
 ### Data Scientist (June 2022 – December 2022)
