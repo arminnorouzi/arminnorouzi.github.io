@@ -41,7 +41,7 @@ author_profile: true
 
 * H. Biglari, **A.Norouzi**, Design and Numerical Analysis of Composite Pressure Vessel based on Unit Load Method, _Journal of Mechanical Engineering (University of Tabriz)_, 2015, page 1-13 (In Persian). [<i class="fas fa-link"></i>](https://www.researchgate.net/publication/293645262_Design_and_Numerical_Analysis_of_Composite_Pressure_Vessel_based_on_Unit_Load_Method_in_persian) [<i class="fas fa-file-pdf"></i>](/files/pdf/JMEUT40541445545800.pdf)
 
-## Manuscript in preparation:
+<!-- ## Manuscript in preparation:
 
 
 * D.C. Gordon, A. Winkler, **A. Norouzi**, J. Frey, M. Diehl, J. Andert and C. R. Koch, Benchmarking of Rapid Prototyping Hardware for Nonlinear Optimal (work in Progress)
@@ -49,7 +49,7 @@ author_profile: true
 * D.C. Gordon, A. Winkler, **A. Norouzi**, J. Andert and C. R. Koch, Realtime Long Short Term Memory Nonlinear Model Predictive Control for HCCI Performance and Emissions (work in Progress)
 
 * D.C. Gordon, A. Winkler, **A. Norouzi**, J. Andert and C. R. Koch, Machine Learning based NMPC for Hydrogen Diesel Dual fuel Combustion (work in Progress)
-
+ -->
 
 ## Peer-reviewed conference papers:
 
