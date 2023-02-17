@@ -11,6 +11,9 @@ author_profile: true
     
 * **A. Norouzi**, S. Shahpouri, M. Shahbakhti, and C. R. Koch, Safe Deep Reinforcement Learning in Diesel Engine Emission Control, Proceedings of the Institution of Mechanical Engineers, Part I: Journal of Systems and Control Engineering, [<i class="fas fa-link"></i>](https://journals.sagepub.com/doi/10.1177/09596518231153445)
 
+* **A. Norouzi**, D. Gordon, A. Winkler, J. McNally, E. Nuss, J. Andert, M. Shahbakhti, and C. R. Koch, End-to-End Deep Neural Network Based Nonlinear Model Predictive Control: Experimental Implementation on Diesel Engine Emission Control, Energies, 15(24), 9335, [<i class="fas fa-link"></i>](https://www.mdpi.com/1996-1073/15/24/9335)
+    
+
 * **A. Norouzi**, S. Shahpouri, D. Gordon, A. Winkler, E. Nuss, J. Andert, M. Shahbakhti, and C. R. Koch, Deep Learning based Model Predictive Control for Compression Ignition Engines, Control Engineering Practice, October 2022. [<i class="fas fa-link"></i>](https://www.sciencedirect.com/science/article/pii/S0967066122001472)
    
 * S. Shahpouri, **A. Norouzi**, C. Hayduk, A. Fandakov, R. Rezaei, M. Shahbakhtia, C. R. Koch,  Laminar Flame Speed Modeling for Low Carbon Fuels Using Machine Learning Methods, Fuel, October 2022. [<i class="fas fa-link"></i>](https://www.sciencedirect.com/science/article/pii/S0016236122030113)
@@ -40,16 +43,12 @@ author_profile: true
 
 ## Manuscript in preparation:
 
-    
-* **A. Norouzi**, D. Gordon, A. Winkler, J. McNally, E. Nuss, J. Andert, M. Shahbakhti, and C. R. Koch, Experimental Implementation of Deep Neural Network-based Nonlinear Model Predictive Control in Diesel Engine Emission Control, \textit{Transaction on Control Systems Technology} (Submitted on May 10, 2022).
 
 * D.C. Gordon, A. Winkler, **A. Norouzi**, J. Frey, M. Diehl, J. Andert and C. R. Koch, Benchmarking of Rapid Prototyping Hardware for Nonlinear Optimal (work in Progress)
 
 * D.C. Gordon, A. Winkler, **A. Norouzi**, J. Andert and C. R. Koch, Realtime Long Short Term Memory Nonlinear Model Predictive Control for HCCI Performance and Emissions (work in Progress)
 
 * D.C. Gordon, A. Winkler, **A. Norouzi**, J. Andert and C. R. Koch, Machine Learning based NMPC for Hydrogen Diesel Dual fuel Combustion (work in Progress)
-    \end{enumerate}}
-    \vspace{2mm}
 
 
 ## Peer-reviewed conference papers:
