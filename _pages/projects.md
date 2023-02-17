@@ -37,7 +37,7 @@ _IAV GmbH, Gifhorn, Germany (Remote)_
 
 
 ### Technical report: AI and MPC Applications for Engine Control and Calibration (November 2020 – February 2021)
-_Cummins, Columbus, United States (Remote)
+_Cummins, Columbus, United States (Remote)_
 * Analyzed state-of-the-art literature in the field of AI and MPC for automotive applications in collaboration with Cummins
 * Critical reviews of existing methods for implementing real-time adaptive learning 
 * Identified promising ML methods to address automotive industry challenges
