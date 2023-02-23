@@ -30,7 +30,7 @@ _Skyjack Inc, Guelph, Canada_
 
 ### Applied Machine Learning Scientist (January 2019 – May 2022)
 
-_Energy Mechatronics Lab (University of Alberta/0, Edmonton, Canada_
+_Energy Mechatronics Lab (University of Alberta), Edmonton, Canada_
 
 
 * Established end-to-end ML solutions in the domain of robotic, automotive, and control engineering to make controller design up to 50x faster 
