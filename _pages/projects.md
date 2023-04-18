@@ -10,7 +10,7 @@ redirect_from:
 ### DocsGPT using Google Colaboratory ([GitHub](https://github.com/Farhad-Davaripour/DocsGPT))
 
 - Collaborated in the development of DocsGpt, an AI-powered app that enables anyone with a Gmail account to easily upload PDF files and ask questions using GPT-3 embedding.
-- Provided a user-friendly solution for PDF document analysis and question-answering, using google Colaboratory making it accessible to a wider audience without requiring installing or interacting with code
+- Provided a user-friendly solution for PDF document analysis and question-answering, using Google Collaboratory, making it accessible to a wider audience without requiring installing or interacting with code
 
 ### Machine Learning Course - MECE 610 (June 2021 – March 2022)
 

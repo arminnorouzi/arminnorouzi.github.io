@@ -13,7 +13,7 @@ _The Citco Group Limited, Toronto, Canada_
 
 - Collaborated with different departments such as Citco Bank and Citco Fund Service, as part of the innovation technology team at Citco, to deliver end-to-end ML solutions.
 - Developed and deployed an end-to-end machine learning infrastructure on AWS using CloudFormation, CodePipeline, Lambda, and SageMaker to predict payment dates of different transactions with 94% accuracy and optimize profits for Citco Bank.
-- Implemented a predictive algorithm that leveraged advanced LLM embedings and NLP technologies to accurately predict legal entity information; achieved 80% increase in document processing efficiency and streamlined deployment process by setting up a CI/CD pipeline with CodePipeline.
+- Implemented a predictive algorithm that leveraged advanced LLM embeddings and NLP technologies to predict legal entity information accurately; achieved 80% increase in document processing efficiency and streamlined deployment process by setting up a CI/CD pipeline with CodePipeline.
 - Developed ETL pipelines using Apache Spark in Databricks to extract, transform, and load data into Delta tables, facilitating data analytics and ML for improved business outcomes.
 
 ### Data Scientist (June 2022 – December 2022)
