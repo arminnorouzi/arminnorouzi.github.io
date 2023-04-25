@@ -1,20 +1,27 @@
+---
+title: "Blog Post number 1"
+date: 2012-08-14
+permalink: /posts/2012/08/blog-post-1/
+tags:
+  - cool posts
+  - category1
+  - category2
+---
+
 <a href="https://colab.research.google.com/github/arminnorouzi/machine_learning_course_UofA_MECE610/blob/main/L01_Introduction_to_Machine_Learning/L01a_Introduction_to-Machine_Learning.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 # L01a- Introduction to Machine Learning
 
-   - Developed by **Armin Norouzi**
-   - Compatible with Google Colaboratory
-
+- Developed by **Armin Norouzi**
+- Compatible with Google Colaboratory
 
 **Table of Contents:**
+
 1.  Machine Learning Background
 2.  Linear regression
 3.  Ridge and Lasso regression
 4.  Logistic regression - classification
 5.  Unsupervised Learning - k-means algorithm
-
-
-
 
 ## Machine Learning Background
 
@@ -22,23 +29,21 @@
 
 Machine learning (ML) is the study of computer algorithms that can improve themselves automatically as a result of experience and data consumption. It is considered to be a component of artificial intelligence. Machine learning algorithms construct a model from sample data, referred to as training data, in order to generate predictions or judgments without explicitly programming them to do so. Machine learning algorithms are utilised in a broad variety of applications, including medicine, email filtering, speech recognition, and computer vision, where developing traditional algorithms to do the required tasks is difficult or impossible.
 
-In general, ML can be divided into three main categories: 
+In general, ML can be divided into three main categories:
+
 1. **Supervised learning:** Supervised learning algorithms build a mathematical model of a set of data that contains both the inputs and the desired outputs.
 2. **Unsupervised learning:** Unsupervised learning algorithms take a set of data that contains only inputs, and find structure in the data, like grouping or clustering of data points. The algorithms, therefore, learn from test data that has not been labeled, classified or categorized.
 3. **Reinforcement Learning (RL):** Reinforcement learning is an area of machine learning concerned with how software agents ought to take actions in an environment so as to maximize some notion of cumulative reward.
 
 ### Feature Engineering
 
-
 Feature engineering is a type of machine learning technique that makes use of data to generate new variables that are not included in the training set. It is capable of generating novel features for both supervised and unsupervised learning, with the goal of simplifying and speeding up data transformations while also improving model accuracy. When working with machine learning models, feature engineering is essential. Whatever the data or architecture, a suboptimal feature will have a direct effect on your model.
-
 
 1. **Imputation**
 
-When it comes to prepping data for machine learning, one of the most common concerns is missing values. Missing values can be caused by a variety of circumstances, including human mistake, data flow interruptions, privacy problems, and others. For whatever reason, missing values degrade the performance of machine learning models. Imputation's primary objective is to deal with missing values. 
+When it comes to prepping data for machine learning, one of the most common concerns is missing values. Missing values can be caused by a variety of circumstances, including human mistake, data flow interruptions, privacy problems, and others. For whatever reason, missing values degrade the performance of machine learning models. Imputation's primary objective is to deal with missing values.
 
 2. **Handling Outliers**
-
 
 Outlier handling is a statistical strategy for identifying and eliminating outliers from a dataset. This strategy can be applied at many scales to generate a more accurate depiction of data. This has an effect on the performance of the model. The effect can be large or little, depending on the model; for example, linear regression is extremely susceptible to outliers. This method should be carried out prior to the start of model training. Among the several strategies for dealing with outliers are the following:
 
@@ -48,30 +53,23 @@ Outlier handling is a statistical strategy for identifying and eliminating outli
 
 **Capping:** Using an arbitrary value or a value from a variable distribution to replace the maximum and minimum values.
 
-
-
 3. **Log Transform**
 
-
-Log Transform is the most used technique among data scientists. It is mostly used to turn a skewed distribution into a normal or less-skewed distribution. 
+Log Transform is the most used technique among data scientists. It is mostly used to turn a skewed distribution into a normal or less-skewed distribution.
 
 $ (x,y) ⇒ (\log(x),\log(y)) $
 
-
 4. **One-hot encoding**
-
 
 A one-hot encoding is a sort of encoding in which each element of a finite set is represented by its index, with just one element having its index set to "1" and the remaining elements having indices between [0, n-1]. In contrast to binary encoding systems, which allow for the representation of two values (i.e. 0 and 1) per bit, this technique assigns a unique value to each feasible situation.
 
-
 5. **Scaling**
-
 
 Scaling features is a common and challenging topic in machine learning, but it is critical to get right. To train a predictive model, we want data with a well-defined collection of features that can be scaled up or down as necessary.
 
 **Normalization:** All values are scaled in a specified range between 0 and 1 via normalisation (or min-max normalisation). This modification has no influence on the feature’s distribution, however it does exacerbate the effects of outliers due to lower standard deviations. As a result, it is advised that outliers be dealt with prior to normalisation.
 
-$ x_n = \frac{x- x_{min}}{x_{max}-x_{min}} $
+$ x*n = \frac{x- x*{min}}{x*{max}-x*{min}} $
 
 **Standardization:** Standardization (also known as z-score normalisation) is the process of scaling values while accounting for standard deviation $\sigma$ . If the standard deviation of features differs, the range of those features will likewise differ. The effect of outliers in the characteristics is reduced as a result. To arrive at a distribution with a 0 mean $\mu$ and 1 variance, all the data points are subtracted by their mean and the result divided by the distribution’s variance.
 
@@ -83,9 +81,7 @@ It is critical to understand prediction errors whenever we discuss model predict
 
 1. **Bias:** Bias is the variance between our model's average forecast and the actual value we are attempting to predict. A model with a large bias ignores the training data and oversimplifies the model. It always results in a high level of inaccuracy on both training and test data.
 
-
 2. **Variance:** The variance of a model prediction for a given data point or value indicates the spread of our data. A model with a large variance pays close attention to training data and does not generalise to new input. As a result, while these models perform admirably on training data, they exhibit substantial error rates on test data.
-
 
 Underfitting occurs in supervised learning when a model is unable to grasp the underlying pattern of the data. These models typically exhibit a high degree of bias and a low degree of variance. This occurs when there is insufficient data to develop an appropriate model or when we attempt to build a linear model using nonlinear data. Additionally, certain types of models, such as linear and logistic regression, are extremely simple to use for capturing complicated patterns in data.
 
@@ -97,141 +93,115 @@ Overfitting occurs in supervised learning when our model catches both the noise 
 
 If our model is oversimplified and contains a small number of parameters, it may have a high bias and a low variance. On the other hand, if our model contains a big number of parameters, it will exhibit a high degree of variance and a low degree of bias. Thus, we must strike a balance between overfitting and underfitting the data. This complexity trade-off is the reason for the trade-off between bias and variation. An algorithm cannot be both more and less complex. A model with an ideal balance of bias and variance will never be over- or under-fit.
 
-
 ![picture](https://github.com/arminnorouzi/machine_learning_course_UofA_MECE610/blob/main/L01_Introduction_to_Machine_Learning/figures/1_oO0KYF7Z84nePqfsJ9E0WQ.png?raw=true)
 
 ## Linear regression
 
-
-
 ### Least Squares Linear Regression
 
-
-
--   should be a review
--   highlight concepts in:
-    -   **frequentist statistics::** in which model parameters are assumed fixed and we do not specify prior beliefs over these parameters
-    -   **Bayesian statistics::** which focuses on computing the posterior belief over model parameters given a prior
-
-
+- should be a review
+- highlight concepts in:
+  - **frequentist statistics::** in which model parameters are assumed fixed and we do not specify prior beliefs over these parameters
+  - **Bayesian statistics::** which focuses on computing the posterior belief over model parameters given a prior
 
 ### Linear regression
 
-
-
--   regression with linear functions as:
+- regression with linear functions as:
 
 \begin{equation}
-    \hat{y} = f( \mathbf{x}) =  \mathbf{\theta}^T  \mathbf{x}.
+\hat{y} = f( \mathbf{x}) = \mathbf{\theta}^T \mathbf{x}.
 \end{equation}
 
--   where $ \mathbf{\theta}$ are the parameters of the model.
--   Note that the linear function above has an intercept at zero - there is no offset term.
--   assume throughout for linear regression that the input vector is augmented with a $1$, so that
+- where $ \mathbf{\theta}$ are the parameters of the model.
+- Note that the linear function above has an intercept at zero - there is no offset term.
+- assume throughout for linear regression that the input vector is augmented with a $1$, so that
 
 \begin{equation}
-    \hat{y} = \theta_0 +  \mathbf{\theta}^T  \mathbf{x} =
-    \begin{bmatrix}
-    \theta_0 &  \mathbf{\theta}^T
-    \end{bmatrix}
-    \begin{bmatrix}
-    1\\
-     \mathbf{x}
-    \end{bmatrix}.
+\hat{y} = \theta_0 + \mathbf{\theta}^T \mathbf{x} =
+\begin{bmatrix}
+\theta_0 & \mathbf{\theta}^T
+\end{bmatrix}
+\begin{bmatrix}
+1\\
+\mathbf{x}
+\end{bmatrix}.
 \end{equation}
 
-Thus when we write $ \mathbf{x}$, simply imagine the input augmented with a 1 at the first entry. 
-
-
+Thus when we write $ \mathbf{x}$, simply imagine the input augmented with a 1 at the first entry.
 
 **Using Mean Squared Error (MSE) loss**
 
--   the Mean Squared Error} (MSE) cost function is:
+- the Mean Squared Error} (MSE) cost function is:
 
 \begin{equation}
-    J(\theta) = \frac{1}{d}\sum_{i=1}^{d} \left( y_i - \hat{y} \right)^2.
+J(\theta) = \frac{1}{d}\sum\_{i=1}^{d} \left( y_i - \hat{y} \right)^2.
 \end{equation}
 
--   this is the most common loss function in regression problems due to several favorable properties
--   minimizing this loss encodes the objective of minimizing the squared error in our prediction.
--   Given our linear model parameterization and this loss function, we can now fully specify our regression problem as:
-
-\begin{equation}
-\begin{split}
-& \underset{ \mathbf{\theta}}{\min}
-& & \frac{1}{d}\sum_{i=1}^{d} \left( y_i -  \mathbf{\theta}^T  \mathbf{x}_i \right)^2
-\end{split}
-\end{equation}
-
--   rewrite as
+- this is the most common loss function in regression problems due to several favorable properties
+- minimizing this loss encodes the objective of minimizing the squared error in our prediction.
+- Given our linear model parameterization and this loss function, we can now fully specify our regression problem as:
 
 \begin{equation}
 \begin{split}
 & \underset{ \mathbf{\theta}}{\min}
-& & \left\|  \mathbf{y} - X  \mathbf{\theta} \right\|_2^2
+& & \frac{1}{d}\sum\_{i=1}^{d} \left( y_i - \mathbf{\theta}^T \mathbf{x}\_i \right)^2
 \end{split}
 \end{equation}
 
--   have multiplied the objective by $d$ to simplify notation
--   where $  \mathbf{y}^T = [y_1, \ldots, y_d]$ and$X^T = [ \mathbf{x}_1, \ldots,  \mathbf{x}_d]$
-    -   The matrix $ X^T $ is typically referred to as the \textit{design matrix}.
+- rewrite as
 
+\begin{equation}
+\begin{split}
+& \underset{ \mathbf{\theta}}{\min}
+& & \left\| \mathbf{y} - X \mathbf{\theta} \right\|\_2^2
+\end{split}
+\end{equation}
 
+- have multiplied the objective by $d$ to simplify notation
+- where $ \mathbf{y}^T = [y_1, \ldots, y_d]$ and$X^T = [ \mathbf{x}_1, \ldots,  \mathbf{x}_d]$
+  - The matrix $ X^T $ is typically referred to as the \textit{design matrix}.
 
 **Solve by setting the gradient to zero:**
 
-
-
--   Eq \ref{eq:least_squares} that this loss is convex in the model parameters and is differentiable with continuous derivative (in class $C^1$).
--   know any point satisfying the first order necessary conditions for optimality is a global minimizer.
--   to solve this problem compute the gradient as:
+- Eq \ref{eq:least_squares} that this loss is convex in the model parameters and is differentiable with continuous derivative (in class $C^1$).
+- know any point satisfying the first order necessary conditions for optimality is a global minimizer.
+- to solve this problem compute the gradient as:
 
 \begin{align}
-    \nabla_{ \mathbf{\theta}}\left\|  \mathbf{y} - X  \mathbf{\theta} \right\|_2^2 = 2X^T X  \mathbf{\theta} - 2 X^T  \mathbf{y}
-    \label{eq:LS_grad}
+\nabla\_{ \mathbf{\theta}}\left\| \mathbf{y} - X \mathbf{\theta} \right\|\_2^2 = 2X^T X \mathbf{\theta} - 2 X^T \mathbf{y}
+\label{eq:LS_grad}
 \end{align}
 
--   then set the gradient to zero, resulting in:
+- then set the gradient to zero, resulting in:
 
 \begin{equation}
-    X^T X  \mathbf{\theta} = X^T  \mathbf{y}.
-    \label{eq:LS_grad2}
+X^T X \mathbf{\theta} = X^T \mathbf{y}.
+\label{eq:LS_grad2}
 \end{equation}
 
--   If $X^T X$ is invertible then the optimal set of parameters is
+- If $X^T X$ is invertible then the optimal set of parameters is
 
 \begin{equation}
-    \hat{ \mathbf{\theta}} = (X^T X)^{-1} X^T  \mathbf{y}.
-    \label{eq:norm_eq}
+\hat{ \mathbf{\theta}} = (X^T X)^{-1} X^T \mathbf{y}.
+\label{eq:norm_eq}
 \end{equation}
 
-We will write the set of parameters that solve the least squares problem in the overdetermined form (as above) as $\hat{ \mathbf{\theta}}_{LS}$. 
-
-
+We will write the set of parameters that solve the least squares problem in the overdetermined form (as above) as $\hat{ \mathbf{\theta}}_{LS}$.
 
 **When is \(X^T X\) invertible?**
 
-
-
 \begin{equation}
-    X^T X = \sum_{i=1}^{d}  \mathbf{x}_i  \mathbf{x}_i^T.
+X^T X = \sum\_{i=1}^{d} \mathbf{x}\_i \mathbf{x}\_i^T.
 \end{equation}
 
--   Let $n$ denote the dimension of the input.
--   Then, we require $d > n$ for $X^T X$ to be full rank.
--   However, at least $n$ input is not a sufficient condition for $X^T X$ to be full rank;
-    -   we also require at least $n$ linearly independent inputs.
-
-
+- Let $n$ denote the dimension of the input.
+- Then, we require $d > n$ for $X^T X$ to be full rank.
+- However, at least $n$ input is not a sufficient condition for $X^T X$ to be full rank;
+  - we also require at least $n$ linearly independent inputs.
 
 ### Example Normal Equations: Diesel Engine
 
-
-
 In this example, the Engine NOx model is modeled using different features
-
-
-
 
 ```python
 # Python setup and load libraries
@@ -246,13 +216,8 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 
 **Setup an array to store**
 
-
-
--   the parameter vector $\theta$
--   the columns are $\theta = [ \theta_0  \theta_1  \theta_2  \theta_3  \theta_4]^T $
-
-
-
+- the parameter vector $\theta$
+- the columns are $\theta = [ \theta_0 \theta_1 \theta_2 \theta_3 \theta_4]^T $
 
 ```python
 # max number of parameters
@@ -267,13 +232,8 @@ thetav = np.zeros((ncases, ntheta))
 
 **Setup an array to store errors**
 
-
-
--   the error vector is; MAE, MSE, R2, lambda
--   set $\lambda = 0$ for normal regression and use for Ridge or Lasso
-
-
-
+- the error vector is; MAE, MSE, R2, lambda
+- set $\lambda = 0$ for normal regression and use for Ridge or Lasso
 
 ```python
 nerr = 4
@@ -282,23 +242,14 @@ errv = np.zeros((ncases, nerr))
 
 **Import Engine Data**
 
-
-
 Stationary Diesel engine data with
 
 | Load [ft.lb]|Engine speed [rpm]|mf [mg/stroke]|Pr [PSI]|NOx [ppm]|
-
-
-
 
 ```python
 data = pd.read_csv('https://raw.githubusercontent.com/arminnorouzi/ML-developed_course/main/Data/Engine_NOx.csv') #Set with your directory
 data.head()
 ```
-
-
-
-
 
   <div id="df-351b052c-58d3-4c71-b572-1418a806cafb">
     <div class="colab-df-container">
@@ -315,6 +266,7 @@ data.head()
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -375,12 +327,12 @@ data.head()
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
-  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
-       width="24px">
-    <path d="M0 0h24v24H0V0z" fill="none"/>
-    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
-  </svg>
-      </button>
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+width="24px">
+<path d="M0 0h24v24H0V0z" fill="none"/>
+<path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+</svg>
+</button>
 
   <style>
     .colab-df-container {
@@ -445,20 +397,13 @@ data.head()
         }
       </script>
     </div>
+
   </div>
-
-
-
 
 **Plot NOx as a function of load to look at the data**
 
-
-
--   the one \`feature' here is Load (and a constant)
--   so later will fit NOx = $\text{load}\theta_1 + \theta_0 $
-
-
-
+- the one \`feature' here is Load (and a constant)
+- so later will fit NOx = $\text{load}\theta_1 + \theta_0 $
 
 ```python
 plt.scatter(data['Load [ft.lb]'], data['NOx [ppm]'],  color='blue')
@@ -467,22 +412,13 @@ plt.ylabel("NOx [ppm]")
 plt.show()
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_30_0.png)
-    
-
 
 **Split the data in training and test data**
 
-
-
--   usually you want to validate your fit on data that was not used to fit the data
--   here randomly select 80% of the data for fitting (training) - the 80% is arbitrarily selected
--   the remaining 20% will be used to validate (test data)
-
-
-
+- usually you want to validate your fit on data that was not used to fit the data
+- here randomly select 80% of the data for fitting (training) - the 80% is arbitrarily selected
+- the remaining 20% will be used to validate (test data)
 
 ```python
 cdf = data[['Load [ft.lb]','Engine speed [rpm]','mf [mg/stroke]','Pr [PSI]', 'NOx [ppm]']]
@@ -494,9 +430,6 @@ test = cdf[~msk]
 
 **Plot the test and training data**
 
-
-
-
 ```python
 plt.scatter(train['Load [ft.lb]'], train['NOx [ppm]'],  color='blue')
 plt.scatter(test['Load [ft.lb]'], test['NOx [ppm]'],  color='red')
@@ -505,21 +438,12 @@ plt.ylabel("NOx [ppm]")
 plt.show()
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_35_0.png)
-    
-
 
 **Prepare the data for sklearn**
 
-
-
--   sklearn is a python library for Machine Learning
--   divide into test and train and set min and max: $\frac{x-\min(x)}{\max(x) - \min(x)}$
-
-
-
+- sklearn is a python library for Machine Learning
+- divide into test and train and set min and max: $\frac{x-\min(x)}{\max(x) - \min(x)}$
 
 ```python
 from sklearn import preprocessing
@@ -538,12 +462,7 @@ X_test_minmax = min_max_scaler.transform(test_x)
 
 **Preparing data for normal equation**
 
-
-
--   set up $X$ to be a constant (ones) and Load, while $y$ is NOx
-
-
-
+- set up $X$ to be a constant (ones) and Load, while $y$ is NOx
 
 ```python
 numsamples = X_train_minmax.shape[0]
@@ -554,12 +473,7 @@ ytrain = train_y
 
 #### Linear regression using normal equation
 
-
-
--   solve and print coefficients
-
-
-
+- solve and print coefficients
 
 ```python
 theta_lin = np.dot(np.dot(np.linalg.inv(np.dot(Xtrain.T, Xtrain) / numsamples), Xtrain.T), ytrain) / numsamples
@@ -573,13 +487,9 @@ thetav[nc][1] = theta_lin[1]
 
     Normal Equations: Coefficients:  [190.52511735]
     Normal Equations: Intercept:  [141.62731584]
-    
 
--   then plot the fit to the training data. Fit is:  NOx = $\text{load}\theta_1 + \theta_0 $
--   this method is really never numerically used in practice
-
-
-
+- then plot the fit to the training data. Fit is: NOx = $\text{load}\theta_1 + \theta_0 $
+- this method is really never numerically used in practice
 
 ```python
 plt.scatter(train['Load [ft.lb]'], train['NOx [ppm]'],  color='blue')
@@ -589,20 +499,11 @@ plt.ylabel("NOx [ppm]")
 plt.show()
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_46_0.png)
-    
-
 
 **Now plot Predicted NOx versus Measured**
 
-
-
--   the closer to the diagonal line the better the fit
-
-
-
+- the closer to the diagonal line the better the fit
 
 ```python
 plt.plot([100,350], [100, 350],  '-k')
@@ -615,19 +516,11 @@ plt.gca().set_aspect('equal', adjustable='box')
 plt.show()
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_49_0.png)
-    
-
 
 #### Use sklean package for linear regression
 
-
 Define the model type to be a linear regression
-
-
-
 
 ```python
 from sklearn import linear_model
@@ -644,11 +537,8 @@ thetav[nc][1] = regr.coef_
 
     Coefficients:  [[190.52511735]]
     Intercept:  [141.62731584]
-    
 
--   the result is the same - you can plot it yourself to check
-
-
+- the result is the same - you can plot it yourself to check
 
 #### Using multiple feature using hand-written gradient descent:
 
@@ -656,12 +546,7 @@ We had only one feature in the previous part; now we can find a better fit using
 
 **Training/test split and plot**
 
-
-
 **Training and test data is split**
-
-
-
 
 ```python
 cdf = data[['Load [ft.lb]','Engine speed [rpm]','mf [mg/stroke]','Pr [PSI]', 'NOx [ppm]']]
@@ -672,9 +557,6 @@ test = cdf[~msk]
 
 **Plot NOx versus Load**
 
-
-
-
 ```python
 plt.scatter(train['Load [ft.lb]'], train['NOx [ppm]'],  color='blue', label='training')
 plt.scatter(test['Load [ft.lb]'], test['NOx [ppm]'],  color='red', label='test')
@@ -684,21 +566,12 @@ plt.legend()
 plt.show()
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_59_0.png)
-    
-
 
 **Now fit with Multi-features**
 
-
-
 Now repeat single feature regression but with multi-features
-$ NOx =  \theta_0 + \text{load}\theta_1 + \text{speed}\theta_2 + m_f\theta_3 + P_r\theta_4$
-
-
-
+$ NOx = \theta_0 + \text{load}\theta_1 + \text{speed}\theta_2 + m_f\theta_3 + P_r\theta_4$
 
 ```python
 from sklearn import preprocessing
@@ -723,9 +596,6 @@ X_test_minmax = min_max_scaler.transform(test_x)
 
 **Find theta**
 
-
-
-
 ```python
 numsamples = X_train_minmax.shape[0]
 
@@ -743,12 +613,8 @@ print(theta)
      [-112.39291324]
      [-110.72189741]
      [   7.43165093]]
-    
 
 **Plot predicted versus experimental**
-
-
-
 
 ```python
 plt.plot([100,350], [100, 350],  '-k')
@@ -761,20 +627,11 @@ plt.gca().set_aspect('equal', adjustable='box')
 plt.show()
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_66_0.png)
-    
-
 
 **Evaluation of model: Print fit errors (MAE, MSE, R2)**
 
-
-
 Import $R^2$ from sklearn
-
-
-
 
 ```python
 from sklearn.metrics import r2_score
@@ -791,80 +648,60 @@ errv[nc:nc+1] = [mae, mse, r2, 0]
     Multi Feature: Mean absolute error: 16.04
     Multi Feature: Residual sum of squares (MSE): 633.87
     Multi Feature: R2-score: 0.82
-    
 
 **Cost Function and Gradients**
 
-
-
--   The equation for calculating cost function and gradients are as shown below.
--   Please note the cost function is for Linear regression.
--   For other algorithms the cost function will be different and the gradients would have  to be derived from the cost functions
-
-
+- The equation for calculating cost function and gradients are as shown below.
+- Please note the cost function is for Linear regression.
+- For other algorithms the cost function will be different and the gradients would have to be derived from the cost functions
 
 **Cost**
 
-
-
 \begin{equation}
-J(\theta) = 1/2m \sum_{i=1}^{m} (h(\theta)^{(i)} - y^{(i)})^2 
+J(\theta) = 1/2m \sum\_{i=1}^{m} (h(\theta)^{(i)} - y^{(i)})^2
 \end{equation}
-
-
 
 **Gradient**
 
-
-
 \begin{equation}
-\frac{\partial J(\theta)}{\partial \theta_j} = 1/m\sum_{i=1}^{m}(h(\theta)^{(i)} - y^{(i)}).X_j^{(i)}
+\frac{\partial J(\theta)}{\partial \theta*j} = 1/m\sum*{i=1}^{m}(h(\theta)^{(i)} - y^{(i)}).X_j^{(i)}
 \end{equation}
 
 Where $ h(\theta) \longrightarrow \hat{y}$ the predicted output
 
-
-
 **Gradients**
 
-
-
 \begin{equation}
-\theta_0: = \theta_0 -\alpha . (1/m .\sum_{i=1}^{m}(h(\theta)^{(i)} - y^{(i)}).X_0^{(i)})
+\theta*0: = \theta_0 -\alpha . (1/m .\sum*{i=1}^{m}(h(\theta)^{(i)} - y^{(i)}).X_0^{(i)})
 \end{equation}
 
 \begin{equation}
-\theta_1: = \theta_1 -\alpha . (1/m .\sum_{i=1}^{m}(h(\theta)^{(i)} - y^{(i)}).X_1^{(i)})
+\theta*1: = \theta_1 -\alpha . (1/m .\sum*{i=1}^{m}(h(\theta)^{(i)} - y^{(i)}).X_1^{(i)})
 \end{equation}
 
 \begin{equation}
-\theta_2: = \theta_2 -\alpha . (1/m .\sum_{i=1}^{m}(h(\theta)^{(i)} - y^{(i)}).X_2^{(i)})
+\theta*2: = \theta_2 -\alpha . (1/m .\sum*{i=1}^{m}(h(\theta)^{(i)} - y^{(i)}).X_2^{(i)})
 \end{equation}
 
 \begin{equation}
-\theta_j: = \theta_j -\alpha . (1/m .\sum_{i=1}^{m}(h(\theta)^{(i)} - y^{(i)}).X_0^{(i)})
+\theta*j: = \theta_j -\alpha . (1/m .\sum*{i=1}^{m}(h(\theta)^{(i)} - y^{(i)}).X_0^{(i)})
 \end{equation}
-
-
 
 **Cost Calculation function**
-
-
-
 
 ```python
 def  cal_cost(theta,X,y):
     '''
-    
+
     Calculates the cost for given X and Y. The following shows and example of a single dimensional X
-    theta = Vector of thetas 
+    theta = Vector of thetas
     X     = Row of X's np.zeros((2,j))
     y     = Actual y's np.zeros((2,1))
-    
+
     where:
         j is the no of features
     '''
-    
+
     m = len(y)
     # yhat = theta^T x
     predictions = X.dot(theta)
@@ -875,38 +712,32 @@ def  cal_cost(theta,X,y):
 
 **Gradient Descent function**
 
-
-
-
 ```python
 def gradient_descent(X,y,theta,learning_rate=0.01,iterations=100):
     '''
     X    = Matrix of X with added bias units
     y    = Vector of Y
     theta=Vector of thetas np.random.randn(j,1)
-    learning_rate 
+    learning_rate
     iterations = no of iterations
-    
+
     Returns the final theta vector and array of cost history over no of iterations
     '''
     m = len(y)
     cost_history = np.zeros(iterations)
     theta_history = np.zeros((iterations,5))
     for it in range(iterations):
-        
+
         prediction = np.dot(X, theta)
-        
+
         theta = theta -(1/m)*learning_rate*( X.T.dot((prediction - y)))
         theta_history[it,:] =theta.T
         cost_history[it]  = cal_cost(theta,X,y)
-        
+
     return theta, cost_history, theta_history
 ```
 
 **Gradient Descent for NOx modeling**
-
-
-
 
 ```python
 lr =0.1
@@ -920,10 +751,7 @@ X_b = np.c_[np.ones((len(X_train_minmax),1)),X_train_minmax]
 theta,cost_history,theta_history = gradient_descent(X_b,train_y,theta,lr,n_iter)
 ```
 
--   print result
-
-
-
+- print result
 
 ```python
 print('Theta0: {:0.3f},\nTheta1: {:0.3f},\nTheta2: {:0.3f},\nTheta3: {:0.3f},\nTheta4: {:0.3f}'.format(theta[0][0],theta[1][0],theta[2][0],theta[3][0],theta[4][0]))
@@ -945,16 +773,10 @@ print(theta)
      [-140.02145278]
      [  47.97342353]
      [  19.64471337]]
-    
 
 **Plot - the cost J as a function of iterations**
 
-
-
--   set figure axis and labels
-
-
-
+- set figure axis and labels
 
 ```python
 fig,ax = plt.subplots(figsize=(6,4))
@@ -965,16 +787,9 @@ _=ax.plot(range(n_iter),cost_history,'b.')
 ax.set_yscale('log')
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_88_0.png)
-    
-
 
 **Plot Predicted NOx versus Experimental**
-
-
-
 
 ```python
 plt.plot([100,350], [100, 350],  '-k')
@@ -987,16 +802,9 @@ plt.gca().set_aspect('equal', adjustable='box')
 plt.show()
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_90_0.png)
-    
-
 
 **Print MAE, MSE and R2**
-
-
-
 
 ```python
 from sklearn.metrics import r2_score
@@ -1013,95 +821,71 @@ errv[nc:nc+1] = [mae, mse, r2, 0]
     Multi Feature: Mean absolute error: 16.33
     Multi Feature: Residual sum of squares (MSE): 705.80
     Multi Feature: R2-score: 0.80
-    
 
 ## Regularized Objective-- Ridge regression
 
-
-
 ### Least Squares (LS) underdetermined - add regularized objective term
 
-
-
--   for the exact computation of $\hat{ \mathbf{\theta}}_{LS}$ considering the problem geometrically provides intuition
--   The invertability of $X^T X$ implies the unique existence of a set of parameters $ \mathbf{\theta}$ that minimizes \eqref{eq:least_squares}
--   In the case that we have fewer linearly independent data points than $n$, \eqref{eq:LS_grad2} is not unique.
-    -   Then there exist multiple values of $ \mathbf{\theta}$ that result in zero error
-    -   and the system is underdetermined.
--   A common approach to this is to optimize a regularized objective
+- for the exact computation of $\hat{ \mathbf{\theta}}_{LS}$ considering the problem geometrically provides intuition
+- The invertability of $X^T X$ implies the unique existence of a set of parameters $ \mathbf{\theta}$ that minimizes \eqref{eq:least_squares}
+- In the case that we have fewer linearly independent data points than $n$, \eqref{eq:LS_grad2} is not unique.
+  - Then there exist multiple values of $ \mathbf{\theta}$ that result in zero error
+  - and the system is underdetermined.
+- A common approach to this is to optimize a regularized objective
 
 \begin{equation}
 \begin{aligned}
 & \underset{ \mathbf{\theta}}{\min}
-& & \left\|  \mathbf{y} - X  \mathbf{\theta} \right\|_2^2 + \lambda \| \mathbf{\theta}\|^2_2
+& & \left\| \mathbf{y} - X \mathbf{\theta} \right\|\_2^2 + \lambda \| \mathbf{\theta}\|^2_2
 \end{aligned}
 \label{eq:least_squares_norm}
 \end{equation}
 
 where $\lambda$ is a positive scalar.
 
-
-
 **Ridge or Tikhanov regression**
 
-
-
--   By adding in the regularization term $\| \mathbf{\theta}\|^2_2$
-    -   typically referred to as Ridge or Tikhanov regression, or $L_2$ regression due to the use of the 2-norm)
-    -   the optimal value of $ \mathbf{\theta}$ is biased toward having a small norm.
-    -   Following a similar approach for normal equation, gives
+- By adding in the regularization term $\| \mathbf{\theta}\|^2_2$
+  - typically referred to as Ridge or Tikhanov regression, or $L_2$ regression due to the use of the 2-norm)
+  - the optimal value of $ \mathbf{\theta}$ is biased toward having a small norm.
+  - Following a similar approach for normal equation, gives
 
 \begin{equation}
-    \hat{ \mathbf{\theta}} = (X^T X + \lambda I)^{-1} X^T  \mathbf{y}
+\hat{ \mathbf{\theta}} = (X^T X + \lambda I)^{-1} X^T \mathbf{y}
 \end{equation}
 
--   for which the $X^T X + \lambda I$ is always full rank and thus invertible.
--   the solution to the ridge regularized problem is denoted $\hat{ \mathbf{\theta}}_{RR}$
+- for which the $X^T X + \lambda I$ is always full rank and thus invertible.
+- the solution to the ridge regularized problem is denoted $\hat{ \mathbf{\theta}}_{RR}$
 
-
-
--   for positive $\lambda$, $\|  \mathbf{y} - X  \mathbf{\theta}\|_2^2$ may not be zero
-    -   the estimator of the parameters is biased.
-    -   As $\lambda$ gets smaller, this bias will decrease.
--   In the limit of $\lambda \to 0$, we have
+- for positive $\lambda$, $\|  \mathbf{y} - X  \mathbf{\theta}\|_2^2$ may not be zero
+  - the estimator of the parameters is biased.
+  - As $\lambda$ gets smaller, this bias will decrease.
+- In the limit of $\lambda \to 0$, we have
 
 \begin{equation}
-    (X^T X + \lambda I)^{-1} X^T \to X^T (X X^T)^{-1}
+(X^T X + \lambda I)^{-1} X^T \to X^T (X X^T)^{-1}
 \end{equation}
 
--   the least norm solution
+- the least norm solution
 
 \begin{equation}
-    \hat{ \mathbf{\theta}}_{LN} = X^T (X X^T)^{-1}  \mathbf{y}.
+\hat{ \mathbf{\theta}}\_{LN} = X^T (X X^T)^{-1} \mathbf{y}.
 \end{equation}
 
--   the least norm solution is the set of parameters that achieves zero loss while simultaneously minimizing the 2-norm of the parameter vector.
-
-
+- the least norm solution is the set of parameters that achieves zero loss while simultaneously minimizing the 2-norm of the parameter vector.
 
 **Least norm vs ridge regression**
 
-
-
--   why use the ridge regression with a positive value of $\lambda$
--   The added bias from the regularization helps generalize to new data points without <span class="underline">overfitting</span> to the training dataset.
--   Regularization is an important concept in machine learning discussed later
--   further, ridge regression problem arises naturally in Bayesian inference
-
-
+- why use the ridge regression with a positive value of $\lambda$
+- The added bias from the regularization helps generalize to new data points without <span class="underline">overfitting</span> to the training dataset.
+- Regularization is an important concept in machine learning discussed later
+- further, ridge regression problem arises naturally in Bayesian inference
 
 ### Ridge regression example in Python
 
-
-
 #### Ridge regression single feature using normal equation
 
-
-
 Now repeat single feature regression but with ridge regularization
-
-
-
 
 ```python
 from sklearn import preprocessing
@@ -1118,7 +902,6 @@ X_train_minmax = min_max_scaler.fit_transform(train_x)
 X_test_minmax = min_max_scaler.transform(test_x)
 ```
 
-
 ```python
 numsamples = X_train_minmax.shape[0]
 # 1st row is ones and second row is x
@@ -1126,10 +909,7 @@ Xtrain = np.c_[np.ones((numsamples,1)),X_train_minmax]
 ytrain = train_y
 ```
 
-Use regularization 
-
-
-
+Use regularization
 
 ```python
 Lambda = 0.1
@@ -1146,12 +926,8 @@ print ('Intercept: ',theta_ridge[0])
 
     Coefficients:  [163.89339829]
     Intercept:  [146.7754385]
-    
 
 **Plot fit on training data**
-
-
-
 
 ```python
 plt.scatter(train['Load [ft.lb]'], train['NOx [ppm]'],  color='blue')
@@ -1161,16 +937,9 @@ plt.ylabel("NOx [ppm]")
 plt.show()
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_109_0.png)
-    
-
 
 **Plot NOx prediction versus Experimental**
-
-
-
 
 ```python
 plt.plot([100,350], [100, 350],  '-k')
@@ -1183,21 +952,12 @@ plt.gca().set_aspect('equal', adjustable='box')
 plt.show()
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_111_0.png)
-    
-
 
 #### Ridge regression single feature using sklearn library
 
-
-
--   in Python now use `sklearn` library
--   Import ridge `Ridge` from `sklearn`
-
-
-
+- in Python now use `sklearn` library
+- Import ridge `Ridge` from `sklearn`
 
 ```python
 from sklearn.linear_model import Ridge
@@ -1215,12 +975,8 @@ print ('Intercept: ',regr_ridge.intercept_)
 
     Coefficients:  [[162.48489639]]
     Intercept:  [147.72202208]
-    
 
 **Now plot linear with one feature**
-
-
-
 
 ```python
 plt.scatter(train['Load [ft.lb]'], train['NOx [ppm]'],  color='blue')
@@ -1230,12 +986,7 @@ plt.ylabel("NOx [ppm]")
 plt.show()
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_116_0.png)
-    
-
-
 
 ```python
 plt.plot([100,350], [100, 350],  '-k')
@@ -1248,21 +999,12 @@ plt.gca().set_aspect('equal', adjustable='box')
 plt.show()
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_117_0.png)
-    
-
 
 #### Ridge regression with multiple feature
 
-
-
--   here try to improve the NOx model using:
-    -   more features as before use: load, speed, $m_f$, $P_r$ and a constant
-
-
-
+- here try to improve the NOx model using:
+  - more features as before use: load, speed, $m_f$, $P_r$ and a constant
 
 ```python
 #  Preparing data for sklearn
@@ -1282,9 +1024,6 @@ X_test_minmax_miso = min_max_scaler.transform(test_x_miso)
 
 **Fit the model and print coefficients**
 
-
-
-
 ```python
 from sklearn import linear_model
 regr_miso = linear_model.LinearRegression()
@@ -1296,8 +1035,6 @@ print ('Intercept: ',regr_miso.intercept_)
 
     Coefficients:  [[ 243.74667837 -112.39291324 -110.72189741    7.43165093]]
     Intercept:  [198.34138271]
-    
-
 
 ```python
 y_hat_regr_miso_tr = regr_miso.predict(X_train_minmax_miso) #training prediction
@@ -1305,9 +1042,6 @@ y_hat_regr_miso_ts = regr_miso.predict(X_test_minmax_miso) #testing prediction
 ```
 
 **Plot NOx fit**
-
-
-
 
 ```python
 plt.plot([100,350], [100, 350],  '-k')
@@ -1320,16 +1054,9 @@ plt.gca().set_aspect('equal', adjustable='box')
 plt.show()
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_125_0.png)
-    
-
 
 #### Compare single and Multi feature model use - MSE, MAE, and $R^2$
-
-
-
 
 ```python
 from sklearn.metrics import r2_score
@@ -1343,8 +1070,6 @@ print("Multi Feature: R2-score: %.2f" % r2_score(y_hat_regr_miso_ts , test_y) )
     Multi Feature: Mean absolute error: 16.04
     Multi Feature: Residual sum of squares (MSE): 633.87
     Multi Feature: R2-score: 0.82
-    
-
 
 ```python
 y_hat_regr_tr = regr.predict(X_train_minmax) #training prediction
@@ -1358,12 +1083,8 @@ print("Single Feature: R2-score: %.2f" % r2_score(y_hat_regr_ts , test_y) )
     Single Feature: Mean absolute error: 34.47
     Single Feature: Residual sum of squares (MSE): 1918.24
     Single Feature: R2-score: 0.27
-    
 
 #### Add regularization to multi-feature
-
-
-
 
 ```python
 regr_ridge_miso = Ridge(alpha=0.1)
@@ -1376,18 +1097,13 @@ print ('Intercept: ',regr_ridge_miso.intercept_)
 
     Coefficients:  [[  94.33496675 -126.68345708   26.7261828    -3.40819817]]
     Intercept:  [215.16029914]
-    
 
 **multiple features prediction and plot**
-
-
-
 
 ```python
 y_hat_regr_ridge_miso_tr = regr_ridge_miso.predict(X_train_minmax_miso) #training prediction
 y_hat_regr_ridge_miso_ts = regr_ridge_miso.predict(X_test_minmax_miso) #testing prediction
 ```
-
 
 ```python
 plt.plot([100,350], [100, 350],  '-k')
@@ -1404,30 +1120,18 @@ print("Multi Feature (Ridge): Residual sum of squares (MSE): %.2f" % np.mean((y_
 print("Multi Feature (Ridge): R2-score: %.2f" % r2_score(y_hat_regr_ridge_miso_ts , test_y) )
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_133_0.png)
-    
-
 
     Multi Feature (Ridge): Mean absolute error: 16.99
     Multi Feature (Ridge): Residual sum of squares (MSE): 716.01
     Multi Feature (Ridge): R2-score: 0.79
-    
 
--   Mean absolute error and Residual sum of squares (MSE) increased slightly over the test data while R2 is the same
-
-
+- Mean absolute error and Residual sum of squares (MSE) increased slightly over the test data while R2 is the same
 
 #### Use polynomial features
 
-
-
--   first import function to create polynomial features
--   get 15 terms with all cross products
-
-
-
+- first import function to create polynomial features
+- get 15 terms with all cross products
 
 ```python
 from sklearn.preprocessing import PolynomialFeatures
@@ -1447,7 +1151,6 @@ X_train_minmax_ploy = min_max_scaler.fit_transform(train_x_poly)
 X_test_minmax_ploy = min_max_scaler.transform(test_x_poly)
 ```
 
-
 ```python
 regr_poly = linear_model.LinearRegression()
 
@@ -1462,22 +1165,15 @@ print ('Intercept: ',regr_poly.intercept_)
       -2476.77756311   305.39856591  -221.52557924  -251.96032306
        1616.10927063  2790.01960598  -574.35698449]]
     Intercept:  [208.59598226]
-    
 
 **training and test prediction and plot for polynomial features**
 
-
-
--   now, perform multi-feature regression with polynomial basis
-
-
-
+- now, perform multi-feature regression with polynomial basis
 
 ```python
 y_hat_regr_poly_tr = regr_poly.predict(X_train_minmax_ploy) #training prediction
 y_hat_regr_poly_ts = regr_poly.predict(X_test_minmax_ploy) #testing prediction
 ```
-
 
 ```python
 plt.plot([100,350], [100, 350],  '-k')
@@ -1490,12 +1186,7 @@ plt.gca().set_aspect('equal', adjustable='box')
 plt.show()
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_142_0.png)
-    
-
-
 
 ```python
 print("Multi Feature + polynomial- testing Mean absolute error: %.2f" % np.mean(np.absolute(y_hat_regr_poly_ts - test_y)))
@@ -1506,11 +1197,9 @@ print("Multi Feature + polynomial- testing R2-score: %.2f" % r2_score(y_hat_regr
     Multi Feature + polynomial- testing Mean absolute error: 13.36
     Multi Feature + polynomial- testing sum of squares (MSE): 476.55
     Multi Feature + polynomial- testing R2-score: 0.90
-    
-
 
 ```python
-# training: 
+# training:
 print("Multi Feature + polynomial- training Mean absolute error: %.2f" % np.mean(np.absolute(y_hat_regr_poly_tr - train_y)))
 print("Multi Feature + polynomial- training sum of squares (MSE): %.2f" % np.mean((y_hat_regr_poly_tr - train_y) ** 2))
 print("Multi Feature + polynomial- training R2-score: %.2f" % r2_score(y_hat_regr_poly_tr , train_y) )
@@ -1519,12 +1208,8 @@ print("Multi Feature + polynomial- training R2-score: %.2f" % r2_score(y_hat_reg
     Multi Feature + polynomial- training Mean absolute error: 6.47
     Multi Feature + polynomial- training sum of squares (MSE): 62.27
     Multi Feature + polynomial- training R2-score: 0.99
-    
 
 #### Try regularization with the polynomial feature set
-
-
-
 
 ```python
 #  definition of cost is differert in sklearn - gradient decsent is used here
@@ -1541,12 +1226,8 @@ print ('Intercept: ',regr_ridge_poly.intercept_)
       -220.0684999  -443.01579463  -77.50805336  340.85724207  342.0049843
       -108.05472065  174.85571881  178.92650394  195.68692457 -144.58607417]]
     Intercept:  [213.95536816]
-    
 
 **Plot poly features with regularization**
-
-
-
 
 ```python
 y_hat_regr_ridge_poly_tr = regr_ridge_poly.predict(X_train_minmax_ploy) #training prediction
@@ -1568,24 +1249,16 @@ print("Multi Feature + polynomial (Ridge)-testing Residual sum of squares (MSE):
 print("Multi Feature + polynomial (Ridge)-testing R2-score: %.2f" % r2_score(y_hat_regr_ridge_poly_ts , test_y) )
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_148_0.png)
-    
-
 
     Multi Feature + polynomial (Ridge)-testing Mean absolute error: 12.74
     Multi Feature + polynomial (Ridge)-testing Residual sum of squares (MSE): 358.73
     Multi Feature + polynomial (Ridge)-testing R2-score: 0.91
-    
 
 Mean absolute error and Residual sum of squares (MSE) is slightly increased for testing data, while \(R^2\) is almost the same.
 
-
-
-
 ```python
-# training: 
+# training:
 print("Multi Feature + polynomial + regularization- training Mean absolute error: %.2f" % np.mean(np.absolute(y_hat_regr_ridge_poly_tr - train_y)))
 print("Multi Feature + polynomial + regularization- training sum of squares (MSE): %.2f" % np.mean((y_hat_regr_ridge_poly_tr - train_y) ** 2))
 print("Multi Feature + polynomial +regularization- training R2-score: %.2f" % r2_score(y_hat_regr_ridge_poly_tr , train_y) )
@@ -1594,12 +1267,8 @@ print("Multi Feature + polynomial +regularization- training R2-score: %.2f" % r2
     Multi Feature + polynomial + regularization- training Mean absolute error: 6.79
     Multi Feature + polynomial + regularization- training sum of squares (MSE): 79.93
     Multi Feature + polynomial +regularization- training R2-score: 0.98
-    
 
-#### Analyze the effect of  $ \lambda $ in MAE:
-
-
-
+#### Analyze the effect of $ \lambda $ in MAE:
 
 ```python
 from sklearn.linear_model import Ridge
@@ -1625,9 +1294,6 @@ for a in alphas:
 
 **Plot MAE versus lambda to see the effect of regularization**
 
-
-
-
 ```python
 plt.figure(figsize=(10, 4))
 
@@ -1643,61 +1309,40 @@ plt.axis('tight')
 plt.show()
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_154_0.png)
-    
 
-
--   setting 10e-3 for `lambda` decreases the error
--   but increasing more may give us a model with smaller weights in loss of accuracy
-
-
+- setting 10e-3 for `lambda` decreases the error
+- but increasing more may give us a model with smaller weights in loss of accuracy
 
 ## Lasso with Python example
 
-
-
 ### Lasso regularization
 
-
-
--   Lasso: Least absolute shrinkage and selection operator can be written as:
+- Lasso: Least absolute shrinkage and selection operator can be written as:
 
 \begin{equation}
 \begin{aligned}
 & \underset{ \mathbf{\theta}}{\min}
-& & \left\|  \mathbf{y} - X  \mathbf{\theta} \right\|_2^2 + \lambda \| \mathbf{\theta}\|_2
+& & \left\| \mathbf{y} - X \mathbf{\theta} \right\|\_2^2 + \lambda \| \mathbf{\theta}\|\_2
 \end{aligned}
 \label{eq:lasso_norm}
 \end{equation}
 
--   where $\lambda$ is a positive scalar
--   here the magnitude of $ \mathbf{\theta}$ is used not the square as in the ridge regression
--   can help with overfitting and also with feature selection
-
-
+- where $\lambda$ is a positive scalar
+- here the magnitude of $ \mathbf{\theta}$ is used not the square as in the ridge regression
+- can help with overfitting and also with feature selection
 
 **Lasso regression**
 
-
-
--   LASSO is a regression method that also perform feature selection and regularization to improve the model's prediction accuracy.
--   plan: choose the most significant feature from
-    -   multi-feature and
-    -   multi-feature with polynomial features
-
-
+- LASSO is a regression method that also perform feature selection and regularization to improve the model's prediction accuracy.
+- plan: choose the most significant feature from
+  - multi-feature and
+  - multi-feature with polynomial features
 
 ### LASSO example in Python
 
-
-
--   import and fit to training data
--   note $\lambda$ above is defined as `alpha` in `sklearn` for lasso
-
-
-
+- import and fit to training data
+- note $\lambda$ above is defined as `alpha` in `sklearn` for lasso
 
 ```python
 from sklearn import linear_model
@@ -1710,12 +1355,8 @@ print ('Intercept: ',regr_Lasso_miso.intercept_)
 
     Coefficients:  [ 123.75916478 -124.56593184    0.           -0.        ]
     Intercept:  [211.21415757]
-    
 
 **Lasso prediction for training data - linear model**
-
-
-
 
 ```python
 y_hat_regr_Lasso_miso_tr = regr_Lasso_miso.predict(X_train_minmax_miso) #training prediction
@@ -1735,21 +1376,13 @@ print("Multi Feature (LASSO)- testing Residual sum of squares (MSE): %.2f" % np.
 print("Multi Feature (LASSO)- testing R2-score: %.2f" % r2_score(y_hat_regr_Lasso_miso_ts , test_y) )
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_165_0.png)
-    
-
 
     Multi Feature (LASSO)- testing Mean absolute error: 71.00
     Multi Feature (LASSO)- testing Residual sum of squares (MSE): 8260.19
     Multi Feature (LASSO)- testing R2-score: 0.80
-    
 
 **Lasso prediction for test data - linear model**
-
-
-
 
 ```python
 print("Multi Feature (LASSO)- training Mean absolute error: %.2f" % np.mean(np.absolute(y_hat_regr_Lasso_miso_tr - train_y)))
@@ -1760,16 +1393,10 @@ print("Multi Feature (LASSO)- training R2-score: %.2f" % r2_score(y_hat_regr_Las
     Multi Feature (LASSO)- training Mean absolute error: 76.34
     Multi Feature (LASSO)- training sum of squares (MSE): 8710.78
     Multi Feature (LASSO)- training R2-score: 0.88
-    
 
--   loss of accuracy, but now only one feature instead of four features
-
-
+- loss of accuracy, but now only one feature instead of four features
 
 **Lasso prediction for training/test data - polynomial feature set**
-
-
-
 
 ```python
 regr_Lasso_poly = linear_model.Lasso(alpha=0.1, max_iter=5000)
@@ -1784,8 +1411,6 @@ print ('Intercept: ',regr_Lasso_poly.intercept_)
        -0.         -244.08303227   -0.          339.28354084  220.37324001
        -0.            0.           -0.            0.           -0.        ]
     Intercept:  [232.52169038]
-    
-
 
 ```python
 y_hat_regr_Lasso_poly_tr = regr_Lasso_poly.predict(X_train_minmax_ploy) #training prediction
@@ -1802,14 +1427,9 @@ plt.gca().set_aspect('equal', adjustable='box')
 plt.show()
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_171_0.png)
-    
-
 
 **Compare multiple features with and without polynomial feature**
-
 
 ```python
 # test
@@ -1821,11 +1441,9 @@ print("Multi Feature + polynomial (LASSO)- testing R2-score: %.2f" % r2_score(y_
     Multi Feature + polynomial (LASSO)- testing Mean absolute error: 72.40
     Multi Feature + polynomial (LASSO)- testing Residual sum of squares (MSE): 8530.03
     Multi Feature + polynomial (LASSO)- testing R2-score: 0.89
-    
-
 
 ```python
-# training: 
+# training:
 print("Multi Feature + polynomial (LASSO)- training Mean absolute error: %.2f" % np.mean(np.absolute(y_hat_regr_Lasso_poly_tr - train_y)))
 print("Multi Feature + polynomial (LASSO)- training sum of squares (MSE): %.2f" % np.mean((y_hat_regr_Lasso_poly_tr - train_y) ** 2))
 print("Multi Feature + polynomial (LASSO)- training R2-score: %.2f" % r2_score(y_hat_regr_Lasso_poly_tr , train_y) )
@@ -1834,45 +1452,34 @@ print("Multi Feature + polynomial (LASSO)- training R2-score: %.2f" % r2_score(y
     Multi Feature + polynomial (LASSO)- training Mean absolute error: 76.86
     Multi Feature + polynomial (LASSO)- training sum of squares (MSE): 8849.78
     Multi Feature + polynomial (LASSO)- training R2-score: 0.95
-    
 
--   for the polynomial feature set compared to the linear fit
-    -   four features were removed without significantly losing any accuracy
-
-
+- for the polynomial feature set compared to the linear fit
+  - four features were removed without significantly losing any accuracy
 
 ## Logistic Regression
 
-
-
 Logistic Regression is commonly used to
 
-
-
--   estimate the probability that an instance belongs to a particular class
--   (e.g., what is the probability that this email is spam?).
--   If the estimated probability is greater than 50%,
-    -   then the model predicts that the instance belongs to that class
-    -   (called the positive class, labeled \`\`1''),
-    -   and otherwise it predicts that it does not
-    -   (i.e., it belongs to the negative class, labeled \`\`0'').
--   This makes it a binary classifier.
-
-
+- estimate the probability that an instance belongs to a particular class
+- (e.g., what is the probability that this email is spam?).
+- If the estimated probability is greater than 50%,
+  - then the model predicts that the instance belongs to that class
+  - (called the positive class, labeled \`\`1''),
+  - and otherwise it predicts that it does not
+  - (i.e., it belongs to the negative class, labeled \`\`0'').
+- This makes it a binary classifier.
 
 ### Details of Logistic Regression
 
-
-
--   Just like a Linear Regression model, a Logistic Regression model computes a weighted sum of the input features (plus a bias term),
--   but instead of outputting the result directly like the Linear Regression model does,
--   it outputs the logistic of this result
+- Just like a Linear Regression model, a Logistic Regression model computes a weighted sum of the input features (plus a bias term),
+- but instead of outputting the result directly like the Linear Regression model does,
+- it outputs the logistic of this result
 
 \begin{equation}
-    \hat{y} = \sigma (w^T x + b)
+\hat{y} = \sigma (w^T x + b)
 \end{equation}
 
--   where $ \sigma$ is sigmoid function defined as
+- where $ \sigma$ is sigmoid function defined as
 
 \begin{equation}\label{eq:sig}
 \begin{split}
@@ -1881,65 +1488,57 @@ Logistic Regression is commonly used to
 \end{split}
 \end{equation}
 
--   Notice that $\sigma(z)<0.5$ when $z < 0$, and $\sigma(z) \leq 0.5$ when $z \leq 0$,
-    -   so a Logistic Regression model predicts 1 if $x^T \theta$ is positive
-    -   and 0 if it is negative.
--   for given data set of $ {(x^{(1)},y^{(1)}), ..., (x^{(m)},y^{(m)})} $,
-
-
+- Notice that $\sigma(z)<0.5$ when $z < 0$, and $\sigma(z) \leq 0.5$ when $z \leq 0$,
+  - so a Logistic Regression model predicts 1 if $x^T \theta$ is positive
+  - and 0 if it is negative.
+- for given data set of $ {(x^{(1)},y^{(1)}), ..., (x^{(m)},y^{(m)})} $,
 
 **cost function**
 
-
-
--   the cost function of Logistic Regression can be defined as
+- the cost function of Logistic Regression can be defined as
 
 \begin{equation}
-    J = L(\hat{y}, y) = -\frac{1}{m}\sum_{i=1}^{m} (y^{(i)}\log(\hat{y}^{(i)})+(1-y^{(i)})\log(1-\hat{y}^{(i)}))
+J = L(\hat{y}, y) = -\frac{1}{m}\sum\_{i=1}^{m} (y^{(i)}\log(\hat{y}^{(i)})+(1-y^{(i)})\log(1-\hat{y}^{(i)}))
 \end{equation}
 
--   where $ i$ represent training data index.
--   This cost function makes sense because $ -\log(z) $ grows very large when z approaches 0,
--   so the cost will be large if the model estimates a probability close to 0 for a positive instance,
--   and it will also be very large if the model estimates a probability close to 1 for a negative instance.
--   On the other hand, $ -\log(z) $ is close to 0 when $ z $ is close to 1,
--   so the cost will be close to 0 if the estimated probability is close to 0 for a negative instance
--   or close to 1 for a positive instance,
--   which is precisely what we want.
-
-
+- where $ i$ represent training data index.
+- This cost function makes sense because $ -\log(z) $ grows very large when z approaches 0,
+- so the cost will be large if the model estimates a probability close to 0 for a positive instance,
+- and it will also be very large if the model estimates a probability close to 1 for a negative instance.
+- On the other hand, $ -\log(z) $ is close to 0 when $ z $ is close to 1,
+- so the cost will be close to 0 if the estimated probability is close to 0 for a negative instance
+- or close to 1 for a positive instance,
+- which is precisely what we want.
 
 **Equation derivation for a single data set**
 
-
-
--   derive equation first for single data set
--   later we need to run these equation if `for` loop for all equations.
--   In this case, $m = 1$ and cost function equals to loss function.
+- derive equation first for single data set
+- later we need to run these equation if `for` loop for all equations.
+- In this case, $m = 1$ and cost function equals to loss function.
 
 \begin{equation}
 J(w, b) = L(\hat{Y}, y)
 \end{equation}
 
--   and as $\hat{y} = a$, loss function is
+- and as $\hat{y} = a$, loss function is
 
 \begin{equation}
 J(w, b) = L(a, y)
 \end{equation}
 
--   To find $dw$ we need to calculated derivate of cost function with respect to $w$:
+- To find $dw$ we need to calculated derivate of cost function with respect to $w$:
 
 \begin{equation}
 dw = \frac{\partial L(a, y)}{ \partial w}
 \end{equation}
 
--   Based of rule of chain this derivative can be rewritten as
+- Based of rule of chain this derivative can be rewritten as
 
 \begin{equation}
 dw = \frac{\partial L(a, y)}{ \partial a} \frac{\partial a}{ \partial z} \frac{\partial z}{ \partial w}
 \end{equation}
 
--   define $da$ and $dz$ as
+- define $da$ and $dz$ as
 
 \begin{equation}
 da = \frac{\partial L(a, y)}{ \partial a}
@@ -1949,7 +1548,7 @@ da = \frac{\partial L(a, y)}{ \partial a}
 dz = \frac{\partial L(a, y)}{ \partial a} \frac{\partial a}{ \partial z}
 \end{equation}
 
--   now first calculate $da$ using the logistic loss function
+- now first calculate $da$ using the logistic loss function
 
 \begin{equation} \label{da}
 \begin{split}
@@ -1969,7 +1568,7 @@ dz &= \frac{\partial L(a, y)}{ \partial a} \frac{\partial a}{ \partial z}\\
 \end{split}
 \end{equation}
 
--   Substituting Eq. \ref{da} in Eq. \ref{dz2}, $da$ can be simplified as
+- Substituting Eq. \ref{da} in Eq. \ref{dz2}, $da$ can be simplified as
 
 \begin{equation}\label{dz3}
 \begin{split}
@@ -1978,7 +1577,7 @@ dz&=\frac{-y}{a} + \frac{1-y}{1-a} (a)(1-a) \\
 \end{split}
 \end{equation}
 
--   finally, substitute $\partial z / \partial w = x$, and $dw$ can be found as
+- finally, substitute $\partial z / \partial w = x$, and $dw$ can be found as
 
 \begin{equation}\label{dw}
 \begin{split}
@@ -1987,31 +1586,27 @@ dw &= dz.x
 \end{split}
 \end{equation}
 
-
-
 **one iteration of gradient descent**
 
-
-
--   the following `for` loop need to go through to $m$ cases to cover all data set as
+- the following `for` loop need to go through to $m$ cases to cover all data set as
 
 \begin{equation}\label{eq:for}
 \begin{split}
-    &\text{for j = 1 to m  }\\
+&\text{for j = 1 to m }\\
 & ~~~~~ z^{(i)} = w^Tx^{(i)} + b\\
 & ~~~~~ a^{(i)} = \sigma(z^{(i)})\\
 & ~~~~~ J = (y^{(i)}\log(\hat{y}^{(i)})+(1-y^{(i)})\log(1-\hat{y}^{(i)})) \\
-& ~~~~~ dz^{(i)} = a^{(i)}-y^{(i)}      \\
-& ~~~~~ dw^{(i)} = x^{(i)} dz^{(i)}      \\
-& ~~~~~ db^{(i)} = dz^{(i)}     \\
-&J = J/m      \\
-&dw = dw/m       \\
-&db = db /m     \\
+& ~~~~~ dz^{(i)} = a^{(i)}-y^{(i)} \\
+& ~~~~~ dw^{(i)} = x^{(i)} dz^{(i)} \\
+& ~~~~~ db^{(i)} = dz^{(i)} \\
+&J = J/m \\
+&dw = dw/m \\
+&db = db /m \\
 \end{split}
 \end{equation}
 
--   In the gradient descent loop
-    -   both $ w $  and $b$ are updated based on gradient descent as
+- In the gradient descent loop
+  - both $ w $ and $b$ are updated based on gradient descent as
 
 \begin{equation}\label{gd}
 \begin{split}
@@ -2020,13 +1615,9 @@ b&= b - \alpha~db\\
 \end{split}
 \end{equation}
 
-
-
 **Vectorized Logistic Regression**
 
-
-
--   by stacking this for loop horizontally into a vector, Logistic Regression can be vectorized as
+- by stacking this for loop horizontally into a vector, Logistic Regression can be vectorized as
 
 \begin{equation}\label{derivatesVector}
 \begin{split}
@@ -2034,35 +1625,28 @@ Z &= w^T X + b \\
 A &= \sigma(Z) \\
 dZ &= A - Y\\
 dW &= \frac{1}{m} X~dZ^T \\
-db &= \frac{1}{m} \sum_{i=1}^m  dZ\\
+db &= \frac{1}{m} \sum\_{i=1}^m dZ\\
 \end{split}
 \end{equation}
 
--   then the two `for` loops can be reduced to one `for` loop gradient descent as
+- then the two `for` loops can be reduced to one `for` loop gradient descent as
 
 \begin{equation}\label{eq:forvec}
 \begin{split}
-    &\text{for j = 1 to maximum iteration  }\\
+&\text{for j = 1 to maximum iteration }\\
 &~~~~~ Z = w^T X + b \\
 &~~~~~ A = \sigma(Z) \\
 &~~~~~ dZ = A - Y\\
 &~~~~~ dW = \frac{1}{m} X~dZ^T \\
-&~~~~~ db = \frac{1}{m} \sum_{i=1}^m  dZ\\
+&~~~~~ db = \frac{1}{m} \sum\_{i=1}^m dZ\\
 &~~~~~w = w - \alpha~dw\\
 &~~~~~b = b - \alpha~db\\
 \end{split}
 \end{equation}
 
-
-
 ### Logistic Regression example in Python
 
-
-
 **Import python Libraries**
-
-
-
 
 ```python
 import pandas as pd
@@ -2082,21 +1666,12 @@ from scipy import ndimage
 
 **Import the data and show the top**
 
-
-
 NOx over 200 ppm is high
-
-
-
 
 ```python
 data = pd.read_csv('https://raw.githubusercontent.com/arminnorouzi/ML-developed_course/main/Data/Engine_NOx_classification.csv') # You need to set it to your path
 data.head()
 ```
-
-
-
-
 
   <div id="df-97730caf-a09e-4bf1-9128-58e8320c2c12">
     <div class="colab-df-container">
@@ -2113,6 +1688,7 @@ data.head()
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -2179,12 +1755,12 @@ data.head()
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
-  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
-       width="24px">
-    <path d="M0 0h24v24H0V0z" fill="none"/>
-    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
-  </svg>
-      </button>
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+width="24px">
+<path d="M0 0h24v24H0V0z" fill="none"/>
+<path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+</svg>
+</button>
 
   <style>
     .colab-df-container {
@@ -2249,15 +1825,10 @@ data.head()
         }
       </script>
     </div>
+
   </div>
 
-
-
-
 **Set training and test data and plot training**
-
-
-
 
 ```python
 cdf = data[['Load [ft.lb]','Engine speed [rpm]','mf [mg/stroke]','Pr [PSI]', 'High NOx']]
@@ -2266,7 +1837,6 @@ msk = np.random.rand(len(data)) < 0.8
 train = cdf[msk]
 test = cdf[~msk]
 ```
-
 
 ```python
 colors = {0: 'blue', 1:'red', 2:'green', 3:'coral', 4:'orange', 5:'black'}
@@ -2280,23 +1850,11 @@ plt.xlabel('Load [ft.lb]', fontsize=12)
 plt.ylabel('Engine speed [rpm]', fontsize=12)
 ```
 
-
-
-
     Text(0, 0.5, 'Engine speed [rpm]')
 
-
-
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_197_1.png)
-    
-
 
 **Plot test data**
-
-
-
 
 ```python
 area = 300
@@ -2308,32 +1866,16 @@ plt.xlabel('Load [ft.lb]', fontsize=12)
 plt.ylabel('Engine speed [rpm]', fontsize=12)
 ```
 
-
-
-
     Text(0, 0.5, 'Engine speed [rpm]')
 
-
-
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_199_1.png)
-    
-
 
 **Logistic Regression classifier using equations**
 
-
-
 **Helper functions**
 
-
-
--   Using your code from \`\`Python Basics'', implement `sigmoid()`
--   As you've seen in the figure above, you need to compute $sigmoid( w^T x + b) = \frac{1}{1 + e^{-(w^T x + b)}}$ to make predictions. Use `np.exp()`
-
-
-
+- Using your code from \`\`Python Basics'', implement `sigmoid()`
+- As you've seen in the figure above, you need to compute $sigmoid( w^T x + b) = \frac{1}{1 + e^{-(w^T x + b)}}$ to make predictions. Use `np.exp()`
 
 ```python
 def sigmoid(z):
@@ -2344,20 +1886,15 @@ def sigmoid(z):
     s -- sigmoid(z)
     """
     s = 1/(1 + np.exp(-z))
-    
+
     return s
 ```
 
 **Initializing parameters**
 
-
-
--   parameter initialization is implemented in the cell below.
--   You have to initialize $w$ and $b$ as a vector of zeros.
--   this numpy function to use, check `np.zeros()` in the `Numpy` library's documentation.
-
-
-
+- parameter initialization is implemented in the cell below.
+- You have to initialize $w$ and $b$ as a vector of zeros.
+- this numpy function to use, check `np.zeros()` in the `Numpy` library's documentation.
 
 ```python
 def initialize_with_zeros(dim):
@@ -2368,7 +1905,7 @@ def initialize_with_zeros(dim):
     w -- initialized vector of shape (dim, 1)
     b -- initialized scalar (corresponds to the bias)
     """
-    
+
     w = np.zeros((dim,1))
     b = 0
     return w, b
@@ -2376,26 +1913,19 @@ def initialize_with_zeros(dim):
 
 **Forward and Backward propagation**
 
+- Now that your parameters are initialized, you can do the \`\`forward'' and \`\`backward'' propagation steps for learning the parameters.
 
-
--   Now that your parameters are initialized, you can do the \`\`forward'' and \`\`backward'' propagation steps for learning the parameters.
-
--   Implement a function `propagate()` that computes the cost function and its gradient.
--   Forward Propagation:
-    -   You get $X$
-    -   You compute $A = \sigma(w^T X + b) = (a^{(1)}, a^{(2)}, \dots , a^{(m-1)}, a^{(m)})$
-    -   You calculate the cost function: $J = \frac{1}{m}\sum_{i=1}^{m}y^{(i)}\log(a^{(i)})+(1-y^{(i)})\log(1-a^{(i)})$
--   these are the two equations you will be using:
+- Implement a function `propagate()` that computes the cost function and its gradient.
+- Forward Propagation:
+  - You get $X$
+  - You compute $A = \sigma(w^T X + b) = (a^{(1)}, a^{(2)}, \dots , a^{(m-1)}, a^{(m)})$
+  - You calculate the cost function: $J = \frac{1}{m}\sum_{i=1}^{m}y^{(i)}\log(a^{(i)})+(1-y^{(i)})\log(1-a^{(i)})$
+- these are the two equations you will be using:
 
 $$ \frac{\partial J}{\partial w} = \frac{1}{m}X(A-Y)^T\tag{7}$$
-$$ \frac{\partial J}{\partial b} = \frac{1}{m} \sum_{i=1}^m (a^{(i)}-y^{(i)})\tag{8}$$
-
-
+$$ \frac{\partial J}{\partial b} = \frac{1}{m} \sum\_{i=1}^m (a^{(i)}-y^{(i)})\tag{8}$$
 
 **Function propagate with gradient**
-
-
-
 
 ```python
 def propagate(w, b, X, Y):
@@ -2411,13 +1941,13 @@ def propagate(w, b, X, Y):
     db -- gradient of the loss with respect to b, thus same shape as b
 
     """
-    
+
     m = X.shape[1]
-    
+
     # FORWARD PROPAGATION (FROM X TO COST)
     A = sigmoid(np.dot(w.T,X) + b)                                        # compute activation
     cost = (-1/m) * np.sum(Y*np.log(A) + (1-Y)*np.log(1-A), axis=1)       # compute cost
-    
+
     # BACKWARD PROPAGATION (TO FIND GRAD)
     dw = (1/m)*np.dot(X,(A-Y).T)
     db = (1/m)*np.sum((A-Y), axis=1)
@@ -2426,34 +1956,27 @@ def propagate(w, b, X, Y):
 
     grads = {"dw": dw,
              "db": db}
-    
+
     return grads, cost
 ```
 
 **Optimization**
 
-
-
--   define the cost function
--   have initialized your parameters
--   so able to compute a cost function and its gradient
--   Now, update the parameters using gradient descent
--   The goal is to learn $w$ and $b$ by minimizing the cost function $J$
--   For a parameter $\theta$, the update is $ \theta = \theta - \alpha \; d\theta$
--   where $\alpha$ is the learning rate.
-
-
+- define the cost function
+- have initialized your parameters
+- so able to compute a cost function and its gradient
+- Now, update the parameters using gradient descent
+- The goal is to learn $w$ and $b$ by minimizing the cost function $J$
+- For a parameter $\theta$, the update is $ \theta = \theta - \alpha \; d\theta$
+- where $\alpha$ is the learning rate.
 
 **Optimization Function**
-
-
-
 
 ```python
 def optimize(w, b, X, Y, num_iterations, learning_rate, print_cost = False):
     """
     This function optimizes w and b by running a gradient descent algorithm
-    
+
     w -- weights, a numpy array of size (num_px * num_px * 3, 1)
     b -- bias, a scalar
     X -- data of shape (num_px * num_px * 3, number of examples)
@@ -2464,50 +1987,47 @@ def optimize(w, b, X, Y, num_iterations, learning_rate, print_cost = False):
     params -- dictionary containing the weights w and bias b
     grads -- dictionary containing the gradients of the weights and bias with respect to the cost function
     costs -- list of all the costs computed during the optimization, this will be used to plot the learning curve.
-    
+
     """
-    
+
     costs = []
-    
+
     for i in range(num_iterations):
-        
-        
+
+
         # Cost and gradient calculation (approx 1-4 lines of code)
 
         grads, cost = propagate(w, b, X, Y)
 
-        
+
         # Retrieve derivatives from grads
         dw = grads["dw"]
         db = grads["db"]
-        
+
         # update rule (approx 2 lines of code)
 
         w = w - learning_rate*dw
         b = b - learning_rate*db
 
-        
+
         # Record the costs
         if i % 100 == 0:
             costs.append(cost)
-        
+
         # Print the cost every 100 training iterations
         if print_cost and i % 100 == 0:
             print ("Cost after iteration %i: %f" %(i, cost))
-    
+
     params = {"w": w,
               "b": b}
-    
+
     grads = {"dw": dw,
              "db": db}
-    
+
     return params, grads, costs
 ```
 
 **Predict if the label is 0 or 1 using logistic regression**
-
-
-
 
 ```python
 def predict(w, b, X):
@@ -2519,18 +2039,18 @@ def predict(w, b, X):
     X -- data of size (num_px * num_px * 3, number of examples)
     Y_prediction -- a numpy array (vector) containing all predictions (0/1) for the examples in X
     '''
-    
+
     m = X.shape[1]
     Y_prediction = np.zeros((1,m))
     w = w.reshape(X.shape[0], 1)
-    
+
     # Compute vector "A" predicting the probabilities of a cat being present in the picture
 
-    A = sigmoid(np.dot(w.T,X) + b)  
+    A = sigmoid(np.dot(w.T,X) + b)
 
-    
+
     for i in range(A.shape[1]):
-        
+
         # Convert probabilities A[0,i] to actual predictions p[0,i]
 
         if  A[0,i] < 0.5:
@@ -2539,30 +2059,25 @@ def predict(w, b, X):
             Y_prediction[0, i] = 1
 
 
-    
+
     return Y_prediction
 ```
 
 **Merge all functions into a model**
 
-
-
--   You will now see how the overall model is structured by
--   putting together all the building blocks
--   functions implemented above, in the right order.
--   Implement the model function. Use the following notation:
-    -   Y<sub>prediction</sub><sub>test</sub> for your predictions on the test set
-    -   Y<sub>prediction</sub><sub>train</sub> for your predictions on the train set
-    -   w, costs, grads for the outputs of `optimize()`
-
-
-
+- You will now see how the overall model is structured by
+- putting together all the building blocks
+- functions implemented above, in the right order.
+- Implement the model function. Use the following notation:
+  - Y<sub>prediction</sub><sub>test</sub> for your predictions on the test set
+  - Y<sub>prediction</sub><sub>train</sub> for your predictions on the train set
+  - w, costs, grads for the outputs of `optimize()`
 
 ```python
 def model(X_train, Y_train, X_test, Y_test, num_iterations = 2000, learning_rate = 0.5, print_cost = False):
     """
     Builds the logistic regression model by calling the function you've implemented previously
-    
+
     X_train -- training set represented by a numpy array of shape (num_px * num_px * 3, m_train)
     Y_train -- training labels represented by a numpy array (vector) of shape (1, m_train)
     X_test -- test set represented by a numpy array of shape (num_px * num_px * 3, m_test)
@@ -2572,18 +2087,18 @@ def model(X_train, Y_train, X_test, Y_test, num_iterations = 2000, learning_rate
     print_cost -- Set to true to print the cost every 100 iterations
     d -- dictionary containing information about the model.
     """
-    
-    
+
+
     # initialize parameters with zeros (approx 1 line of code)
     w, b = initialize_with_zeros(X_train.shape[0])
 
     # Gradient descent (approx 1 line of code)
     parameters, grads, costs = optimize(w, b, X_train, Y_train, num_iterations, learning_rate, print_cost = False)
-    
+
     # Retrieve parameters w and b from dictionary "parameters"
     w = parameters["w"]
     b = parameters["b"]
-    
+
     # Predict test/train set examples (approx 2 lines of code)
     Y_prediction_test = predict(w, b, X_test)
     Y_prediction_train = predict(w, b, X_train)
@@ -2593,22 +2108,19 @@ def model(X_train, Y_train, X_test, Y_test, num_iterations = 2000, learning_rate
     print("train accuracy: {} %".format(100 - np.mean(np.abs(Y_prediction_train - Y_train)) * 100))
     print("test accuracy: {} %".format(100 - np.mean(np.abs(Y_prediction_test - Y_test)) * 100))
 
-    
+
     d = {"costs": costs,
-         "Y_prediction_test": Y_prediction_test, 
-         "Y_prediction_train" : Y_prediction_train, 
-         "w" : w, 
+         "Y_prediction_test": Y_prediction_test,
+         "Y_prediction_train" : Y_prediction_train,
+         "w" : w,
          "b" : b,
          "learning_rate" : learning_rate,
          "num_iterations": num_iterations}
-    
+
     return d
 ```
 
 **Run the training using above developed functions**
-
-
-
 
 ```python
 from sklearn import preprocessing
@@ -2628,12 +2140,8 @@ d = model(X_train_minmax.T, train_y.T, X_test_minmax.T, test_y.T, num_iterations
 
     train accuracy: 97.87234042553192 %
     test accuracy: 73.33333333333333 %
-    
 
 **Plot learning curve (with costs)**
-
-
-
 
 ```python
 costs = np.squeeze(d['costs'])
@@ -2644,16 +2152,9 @@ plt.title("Learning rate =" + str(d["learning_rate"]))
 plt.show()
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_223_0.png)
-    
-
 
 **Plot the classification of NOx as high or low - hand-written code method**
-
-
-
 
 ```python
 colors = {0: 'lightcoral', 1:'aqua', 2:'green', 3:'coral', 4:'orange', 5:'black'}
@@ -2692,16 +2193,9 @@ predictions_test = predict(d["w"],d["b"], X_plot_ts)
 # print ("Accuracy for test data: {} %".format(accuracy_test))
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_225_0.png)
-    
-
 
 **Logistic Regression classifier using sklearn**
-
-
-
 
 ```python
 from sklearn import preprocessing
@@ -2719,14 +2213,9 @@ X_test_minmax = min_max_scaler.transform(test_x)
 
 **Logistic regression and prediction**
 
-
-
--   import `LogisticRegression` from `sklearn`
--   the `penalty = 'l2'` is the type of regularization and `C` is $\lambda$
--   show NOx classification for training data
-
-
-
+- import `LogisticRegression` from `sklearn`
+- the `penalty = 'l2'` is the type of regularization and `C` is $\lambda$
+- show NOx classification for training data
 
 ```python
 from sklearn.linear_model import LogisticRegression
@@ -2734,19 +2223,11 @@ clf = LogisticRegression(penalty='l2', C = 1.5, max_iter=1000).fit(X_train_minma
 clf.predict(X_train_minmax)
 ```
 
-
-
-
     array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1,
            1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
            1, 1, 1])
 
-
-
 **Plot the classification of NOx as high or low - sklearn**
-
-
-
 
 ```python
 colors = {0: 'lightcoral', 1:'aqua', 2:'green', 3:'coral', 4:'orange', 5:'black'}
@@ -2791,115 +2272,87 @@ print ("Accuracy for test data: {} %".format(accuracy_test))
 
     Accuracy for train data: 95.74468085106383 %
     Accuracy for test data: 80.0 %
-    
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_232_1.png)
-    
-
 
 ## Unsupervised Learning k-means
 
-
-
 ### Unsupervised Learning background
 
-
-
--   In unsupervised learning, the training data is unlabeled.
--   the algorithm system tries to learn without a solution
--   some of the most important unsupervised learning subsystems:
-    -   Clustering
-    -   Anomaly detection and novelty detection
-    -   Association rule learning
--   where clustering among these play a crucial role, especially when the objective is to divide unlabeled data.
--   Spam detection of email is a well-known example of clustering using unsupervised learning.
-
-
+- In unsupervised learning, the training data is unlabeled.
+- the algorithm system tries to learn without a solution
+- some of the most important unsupervised learning subsystems:
+  - Clustering
+  - Anomaly detection and novelty detection
+  - Association rule learning
+- where clustering among these play a crucial role, especially when the objective is to divide unlabeled data.
+- Spam detection of email is a well-known example of clustering using unsupervised learning.
 
 ### k-means
 
-
-
--   one of the simplest unsupervised models is k-means
--   Despite its simplicity, the K-means is widely used for clustering in many engineering applications
--   it is especially useful if you need to quickly gain insights from unlabeled data.
--   The way k-means algorithm works as follows:
-    -   Specify number of clusters K
-    -   Initialize centroids by first shuffling the dataset and then randomly selecting K data points for the centroids without replacement
-    -   Keep iterating until there is no change to the centroids. i.e assignment of data points to clusters is not changing
--   for a given $ m $ unlabeled data points and clustering to $ k $ cluster,
--   the cost function of k-means algorithm is defined as
+- one of the simplest unsupervised models is k-means
+- Despite its simplicity, the K-means is widely used for clustering in many engineering applications
+- it is especially useful if you need to quickly gain insights from unlabeled data.
+- The way k-means algorithm works as follows:
+  - Specify number of clusters K
+  - Initialize centroids by first shuffling the dataset and then randomly selecting K data points for the centroids without replacement
+  - Keep iterating until there is no change to the centroids. i.e assignment of data points to clusters is not changing
+- for a given $ m $ unlabeled data points and clustering to $ k $ cluster,
+- the cost function of k-means algorithm is defined as
 
 \begin{equation}
-    J = \sum_{i = 1}^m \sum_{k = 1}^K w_{ik}||x^i - \mu_k||^2
+J = \sum*{i = 1}^m \sum*{k = 1}^K w\_{ik}||x^i - \mu_k||^2
 \end{equation}
-
-
 
 **k-means minimization**
 
-
-
--   it is a minimization problem of two parts.
--   first minimize $ J $ with respect to $ w_{ik} $ and treat $ \mu_k$ fixed as
+- it is a minimization problem of two parts.
+- first minimize $ J $ with respect to $ w\_{ik} $ and treat $ \mu_k$ fixed as
 
 \begin{equation}
-   \frac{\partial J}{\partial w_{ik}}   = \sum_{i = 1}^m \sum_{k = 1}^K ||x^i - \mu_k||^2 = 0
+\frac{\partial J}{\partial w*{ik}} = \sum*{i = 1}^m \sum\_{k = 1}^K ||x^i - \mu_k||^2 = 0
 \end{equation}
 
 which results in
 
 \begin{equation}
 \begin{split}
-w_{ik} &= \begin{cases}
-         1 & \text{if } k = \text{arg min} ||x^i - \mu_k||^2 \\
-         0 & \text{otherwise } \\
-    \end{cases}\\
+w\_{ik} &= \begin{cases}
+1 & \text{if } k = \text{arg min} ||x^i - \mu_k||^2 \\
+0 & \text{otherwise } \\
+\end{cases}\\
 \end{split}
 \end{equation}
 
--   this assigns the data point $ x^i $ to the closest cluster, judged by its sum of squared distance from cluster centroid.
--   Then take the derivative of $ J $ with respect to $ \mu_k $ and treat $ w_{ik}$ fixed.
--   This part is recompute the centroids after the cluster assignments from previous step as
+- this assigns the data point $ x^i $ to the closest cluster, judged by its sum of squared distance from cluster centroid.
+- Then take the derivative of $ J $ with respect to $ \mu*k $ and treat $ w*{ik}$ fixed.
+- This part is recompute the centroids after the cluster assignments from previous step as
 
 \begin{equation}
-   \frac{\partial J}{\partial \mu_k}   = 2 \sum_{i = 1}^m \sum_{k = 1}^K  w_{ik}(x^i - \mu_k) = 0
+\frac{\partial J}{\partial \mu*k} = 2 \sum*{i = 1}^m \sum*{k = 1}^K w*{ik}(x^i - \mu_k) = 0
 \end{equation}
 
--   and results in
+- and results in
 
 \begin{equation}
-\mu_k = \frac{\sum_{i = 1}^m w_{ik}x^i}{\sum_{k = 1}^K w_{ik}}
+\mu*k = \frac{\sum*{i = 1}^m w*{ik}x^i}{\sum*{k = 1}^K w\_{ik}}
 \end{equation}
 
--   which translates to recomputing the centroid of each cluster to reflect the new assignments.
-
-
+- which translates to recomputing the centroid of each cluster to reflect the new assignments.
 
 **k-means - initialize**
 
-
-
--   Since clustering algorithms including k-means use distance-based measurements to determine the similarity between data points,
--   it is recommended to standardize the data to have a mean of zero and a standard deviation of one
-    -   since the features in any dataset would typically have different units
-    -   such as age vs income.
--   Given k-means iterative nature and the random initialization of centroids at the start of the algorithm,
--   different initializations may lead to different clusters since k-means algorithm may stuck in a local optimum and may not converge to global optimum.
--   Therefore, it is recommended to run the algorithm using different initializations of centroids and pick the results of the run that that results in the lowest sum of squared distance.
-
-
+- Since clustering algorithms including k-means use distance-based measurements to determine the similarity between data points,
+- it is recommended to standardize the data to have a mean of zero and a standard deviation of one
+  - since the features in any dataset would typically have different units
+  - such as age vs income.
+- Given k-means iterative nature and the random initialization of centroids at the start of the algorithm,
+- different initializations may lead to different clusters since k-means algorithm may stuck in a local optimum and may not converge to global optimum.
+- Therefore, it is recommended to run the algorithm using different initializations of centroids and pick the results of the run that that results in the lowest sum of squared distance.
 
 ### Unsupervised Learning K-means - simple python example
 
-
-
 **import necessary libraries**
-
-
-
 
 ```python
 import pandas as pd
@@ -2912,43 +2365,33 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 
 **import the data set**
 
-
-
-
 ```python
 from sklearn.datasets import make_blobs
 ```
 
 **Create the data set:**
 
-
-
--   First  up a random seed. Use `numpy's random.seed()` function, where the seed will be set to `0`
--   Next we will be making random clusters of points by using the `make_blobs` class.
--   The `make_blobs` class can take in many inputs, but we will be using these specific ones.
+- First up a random seed. Use `numpy's random.seed()` function, where the seed will be set to `0`
+- Next we will be making random clusters of points by using the `make_blobs` class.
+- The `make_blobs` class can take in many inputs, but we will be using these specific ones.
 
 <span class="underline">Input</span>
 
--   `n_samples` The total number of points equally divided among clusters.
-    -   Value will be: 5000
--   `centers` The number of centers to generate, or the fixed center locations.
-    -   Value will be: [[4, 4], [-2, -1], [2, -3],[1,1]]
--   `cluster_std` The standard deviation of the clusters.
-    -   Value will be: 0.9
+- `n_samples` The total number of points equally divided among clusters.
+  - Value will be: 5000
+- `centers` The number of centers to generate, or the fixed center locations.
+  - Value will be: [[4, 4], [-2, -1], [2, -3],[1,1]]
+- `cluster_std` The standard deviation of the clusters.
+  - Value will be: 0.9
 
 <span class="underline">Output</span>
 
--   `X` : Array of shape [n<sub>samples</sub>, n<sub>features</sub>]. (Feature Matrix)
-    -   The generated samples.
--   `y` : Array of shape [n<sub>samples</sub>]. (Response Vector)
-    -   The integer labels for cluster membership of each sample.
-
-
+- `X` : Array of shape [n<sub>samples</sub>, n<sub>features</sub>]. (Feature Matrix)
+  - The generated samples.
+- `y` : Array of shape [n<sub>samples</sub>]. (Response Vector)
+  - The integer labels for cluster membership of each sample.
 
 **Scatter plot of the randomly generated data**
-
-
-
 
 ```python
 np.random.seed(0)
@@ -2956,37 +2399,23 @@ X, y = make_blobs(n_samples=5000, centers=[[4,4], [-2, -1], [2, -3], [1, 1]], cl
 plt.scatter(X[:, 0], X[:, 1], marker='.')
 ```
 
-
-
-
     <matplotlib.collections.PathCollection at 0x7fed899c96d0>
 
-
-
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_250_1.png)
-    
-
 
 **Setting up K-Means**
 
-
-
--   Using the random data setup K-Means Clustering.
--   The k-means class has many parameters that can be used, but we will be using these three:
--   `init` : Initialization method of the centroids. 
-    -   Value will be: `k-means++`
-    -   `k-means++` : Selects initial cluster centers for k-mean clustering in a smart way to speed up convergence.
--   `n_clusters` : The number of clusters to form as well as the number of centroids to generate. 
-    -   Value will be: 4 (since we have 4 centers)
-    -   `n_init` : Number of time the k-means algorithm will be run with different centroid seeds.
-    -   The final results will be the best output of `n_init` consecutive runs in terms of inertia.
--   Choose a value will be: 12
--   Initialize k-means with these parameters, where the output parameter is called `k_means`.
-
-
-
+- Using the random data setup K-Means Clustering.
+- The k-means class has many parameters that can be used, but we will be using these three:
+- `init` : Initialization method of the centroids.
+  - Value will be: `k-means++`
+  - `k-means++` : Selects initial cluster centers for k-mean clustering in a smart way to speed up convergence.
+- `n_clusters` : The number of clusters to form as well as the number of centroids to generate.
+  - Value will be: 4 (since we have 4 centers)
+  - `n_init` : Number of time the k-means algorithm will be run with different centroid seeds.
+  - The final results will be the best output of `n_init` consecutive runs in terms of inertia.
+- Choose a value will be: 12
+- Initialize k-means with these parameters, where the output parameter is called `k_means`.
 
 ```python
 from sklearn.cluster import KMeans
@@ -2995,68 +2424,39 @@ k_means = KMeans(init = "k-means++", n_clusters = 4, n_init = 12)
 
 **Fit the k-means model with the data matrix X**
 
-
-
-
 ```python
 k_means.fit(X)
 ```
 
-
-
-
     KMeans(n_clusters=4, n_init=12)
 
-
-
--   Now let's obtain the labels for each point in the model using the label attribute `k_means.labels`
--   and save it as `k_means_labels`
-
-
-
+- Now let's obtain the labels for each point in the model using the label attribute `k_means.labels`
+- and save it as `k_means_labels`
 
 ```python
 k_means_labels = k_means.labels_
 k_means_labels
 ```
 
-
-
-
     array([0, 3, 3, ..., 1, 0, 0], dtype=int32)
 
-
-
--   get the coordinates of the cluster centers using `k_means.cluster_centers_`
--   and save it as `k_means_cluster_centers`
-
-
-
+- get the coordinates of the cluster centers using `k_means.cluster_centers_`
+- and save it as `k_means_cluster_centers`
 
 ```python
 k_means_cluster_centers = k_means.cluster_centers_
 k_means_cluster_centers
 ```
 
-
-
-
     array([[-2.03743147, -0.99782524],
            [ 3.97334234,  3.98758687],
            [ 0.96900523,  0.98370298],
            [ 1.99741008, -3.01666822]])
 
-
-
 **Visualize with a Plot**
 
-
-
--   have the random data generated and the k-means model initialized
--   can now plot them
-
-
-
+- have the random data generated and the k-means model initialized
+- can now plot them
 
 ```python
 # Initialize the plot with the specified dimensions.
@@ -3075,17 +2475,17 @@ ax = fig.add_subplot(1, 1, 1)
 # data point is in.
 for k, col in zip(range(len([[4,4], [-2, -1], [2, -3], [1, 1]])), colors):
 
-    # Create a list of all data points, where the data poitns that are 
+    # Create a list of all data points, where the data poitns that are
     # in the cluster (ex. cluster 0) are labeled as true, else they are
     # labeled as false.
     my_members = (k_means_labels == k)
-    
+
     # Define the centroid, or cluster center.
     cluster_center = k_means_cluster_centers[k]
-    
+
     # Plots the datapoints with color col.
     ax.plot(X[my_members, 0], X[my_members, 1], 'w', markerfacecolor=col, marker='.')
-    
+
     # Plots the centroids with specified color, but with a darker outline
     ax.plot(cluster_center[0], cluster_center[1], 'o', markerfacecolor=col,  markeredgecolor='k', markersize=6)
 
@@ -3102,33 +2502,18 @@ ax.set_yticks(())
 plt.show()
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_262_0.png)
-    
-
 
 ### Unsupervised Learning K-means - Diesel engine example
 
-
-
 **Diesel engine - NOx as a function of load**
 
-
-
--   Import the data and show the first lines
-
-
-
+- Import the data and show the first lines
 
 ```python
 data = pd.read_csv('https://raw.githubusercontent.com/arminnorouzi/ML-developed_course/main/Data/Engine_NOx.csv')
 data.head()
 ```
-
-
-
-
 
   <div id="df-ab8c781c-ca95-4118-b3f8-2712299d886a">
     <div class="colab-df-container">
@@ -3145,6 +2530,7 @@ data.head()
     .dataframe thead th {
         text-align: right;
     }
+
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -3205,12 +2591,12 @@ data.head()
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
-  <svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
-       width="24px">
-    <path d="M0 0h24v24H0V0z" fill="none"/>
-    <path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
-  </svg>
-      </button>
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+width="24px">
+<path d="M0 0h24v24H0V0z" fill="none"/>
+<path d="M18.56 5.44l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94zm-11 1L8.5 8.5l.94-2.06 2.06-.94-2.06-.94L8.5 2.5l-.94 2.06-2.06.94zm10 10l.94 2.06.94-2.06 2.06-.94-2.06-.94-.94-2.06-.94 2.06-2.06.94z"/><path d="M17.41 7.96l-1.37-1.37c-.4-.4-.92-.59-1.43-.59-.52 0-1.04.2-1.43.59L10.3 9.45l-7.72 7.72c-.78.78-.78 2.05 0 2.83L4 21.41c.39.39.9.59 1.41.59.51 0 1.02-.2 1.41-.59l7.78-7.78 2.81-2.81c.8-.78.8-2.07 0-2.86zM5.41 20L4 18.59l7.72-7.72 1.47 1.35L5.41 20z"/>
+</svg>
+</button>
 
   <style>
     .colab-df-container {
@@ -3275,15 +2661,10 @@ data.head()
         }
       </script>
     </div>
+
   </div>
 
-
-
-
 **Plot the data - a feature is NOx**
-
-
-
 
 ```python
 plt.scatter(data['Load [ft.lb]'], data['NOx [ppm]'],  color='blue')
@@ -3292,16 +2673,9 @@ plt.ylabel("NOx [ppm]")
 plt.show()
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_268_0.png)
-    
-
 
 **Split the data into training 80% and test 20%**
-
-
-
 
 ```python
 cdf = data[['Load [ft.lb]','Engine speed [rpm]','mf [mg/stroke]','Pr [PSI]', 'NOx [ppm]']]
@@ -3313,9 +2687,6 @@ test = cdf[~msk]
 
 **plot training and test data**
 
-
-
-
 ```python
 plt.scatter(train['Load [ft.lb]'], train['NOx [ppm]'],  color='blue')
 plt.scatter(test['Load [ft.lb]'], test['NOx [ppm]'],  color='red')
@@ -3324,20 +2695,11 @@ plt.ylabel("NOx [ppm]")
 plt.show()
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_272_0.png)
-    
-
 
 **NOx first attempt: try 4 clusters, cluster based on load, speed, and NOx**
 
-
-
--   Prepare the data for sklearn
-
-
-
+- Prepare the data for sklearn
 
 ```python
 from sklearn import preprocessing
@@ -3352,70 +2714,43 @@ X_test_minmax = min_max_scaler.transform(test_x)
 
 **NOx first attempt: run k-means**
 
-
-
-
 ```python
-from sklearn.cluster import KMeans 
+from sklearn.cluster import KMeans
 k_means = KMeans(init = "k-means++", n_clusters = 4, n_init = 12)
 k_means.fit(train_x)
 ```
 
-
-
-
     KMeans(n_clusters=4, n_init=12)
 
-
-
--   look at the labels
-
-
-
+- look at the labels
 
 ```python
 k_means_labels = k_means.labels_
 k_means_labels
 ```
 
-
-
-
     array([2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3,
            3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2,
            2, 2, 2, 1, 1, 1, 1], dtype=int32)
 
-
-
--   look at the center of the clusters
-
-
-
+- look at the center of the clusters
 
 ```python
 k_means_cluster_centers = k_means.cluster_centers_
 k_means_cluster_centers
 ```
 
-
-
-
     array([[ 125.        , 2378.40506467,  146.17695426],
            [ 168.33333333, 1756.4737116 ,  221.55658422],
            [ 220.3125    , 1509.57869138,  300.23835143],
            [ 178.125     , 2006.42717188,  185.03308854]])
 
-
-
 **NOx first attempt: plot the training data and cluster**
-
-
-
 
 ```python
 X = train_x
 
-area = 0.00001*np.pi * ( X[:, 1])**2  
+area = 0.00001*np.pi * ( X[:, 1])**2
 plt.scatter(train['Load [ft.lb]'], train['NOx [ppm]'], s=area, c=k_means_labels.astype(np.float), alpha=0.5)
 plt.xlabel("Load [ft.lb]")
 plt.ylabel("NOx [ppm]")
@@ -3426,22 +2761,12 @@ plt.show()
     /usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py:4: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
     Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
       after removing the cwd from sys.path.
-    
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_283_1.png)
-    
-
 
 **NOx second attempt: try 4 clusters, cluster based on load, speed, injected fuel amount, common pressure and NOx**
 
-
-
--   now have 4 features
-
-
-
+- now have 4 features
 
 ```python
 train_x = np.asanyarray(train[['Load [ft.lb]','Engine speed [rpm]','mf [mg/stroke]','Pr [PSI]', 'NOx [ppm]']])
@@ -3459,24 +2784,16 @@ k_means_labels = k_means.labels_
 k_means_labels
 ```
 
-
-
-
     array([0, 0, 3, 3, 3, 2, 2, 2, 2, 2, 1, 1, 1, 1, 0, 0, 3, 3, 3, 3, 3, 1,
            1, 1, 0, 3, 3, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 3,
            3, 2, 2, 1, 1, 3, 3], dtype=int32)
 
-
-
 **NOx second attempt: plot the training data and cluster**
-
-
-
 
 ```python
 X = train_x
 
-area = 0.00001*np.pi * ( X[:, 1])**2  
+area = 0.00001*np.pi * ( X[:, 1])**2
 plt.scatter(train['Load [ft.lb]'], train['NOx [ppm]'], s=area, c=k_means_labels.astype(np.float), alpha=0.5)
 plt.xlabel("Load [ft.lb]")
 plt.ylabel("NOx [ppm]")
@@ -3487,23 +2804,13 @@ plt.show()
     /usr/local/lib/python3.7/dist-packages/ipykernel_launcher.py:4: DeprecationWarning: `np.float` is a deprecated alias for the builtin `float`. To silence this warning, use `float` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.float64` here.
     Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
       after removing the cwd from sys.path.
-    
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_288_1.png)
-    
-
 
 **Find the best value of k**
 
-
-
--   try several cases to find the best number for K and plot
--   **Inertia:** Sum of squared distances of samples to their closest cluster center.
-
-
-
+- try several cases to find the best number for K and plot
+- **Inertia:** Sum of squared distances of samples to their closest cluster center.
 
 ```python
 inertia_save = []
@@ -3523,11 +2830,7 @@ plt.xticks(np.arange(0, 20, 2))
 plt.yscale('log')
 ```
 
-
-    
 ![png](L01a_Introduction_to-Machine_Learning_files/L01a_Introduction_to-Machine_Learning_291_0.png)
-    
-
 
 ## References
 
@@ -3536,4 +2839,3 @@ plt.yscale('log')
 [2] https://towardsdatascience.com/understanding-the-bias-variance-tradeoff-165e6942b229
 
 [3] https://towardsdatascience.com/what-is-feature-engineering-importance-tools-and-techniques-for-machine-learning-2080b0269f10#:~:text=Feature%20engineering%20is%20the%20process,design%20and%20train%20better%20features.
-
