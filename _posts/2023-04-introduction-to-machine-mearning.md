@@ -1,16 +1,16 @@
 ---
-title: "Blog Post number 4"
-date: 2015-08-14
-permalink: /posts/2012/08/blog-post-4/
+title: "Introduction to Machine Learning"
+date: 2023-04-25
+permalink: /posts/2023/04/introduction-to-machine-mearning/
 tags:
-  - cool posts
-  - category1
-  - category2
+  - Machine Learning
+  - Introduction
+  - ML
 ---
 
 <a href="https://colab.research.google.com/github/arminnorouzi/machine_learning_course_UofA_MECE610/blob/main/L01_Introduction_to_Machine_Learning/L01a_Introduction_to-Machine_Learning.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-# L01a- Introduction to Machine Learning
+# Introduction to Machine Learning
 
 - Developed by **Armin Norouzi**
 - Compatible with Google Colaboratory
