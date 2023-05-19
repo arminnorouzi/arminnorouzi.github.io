@@ -16,6 +16,15 @@ _The Citco Group Limited, Toronto, Canada_
 - Deployed state-of-the-art LLM models, such as StarCoder and Databricks' Dolly, that improved the coding experience for development and business teams and increased documentation quality, leading to a more streamlined software development process and enhanced productivity.
 - Built robust ETL pipelines using Apache Spark in Databricks to extract, transform, and load data into Delta tables, enabling data analytics and ML for improved business outcomes.
 
+### AI and Computer Science Content Creator (June 2021 – present)
+
+_Freelance_
+
+- Developed a comprehensive 5-week course on deep learning using PyTorch and TensorFlow, covering topics such as deep learning, computer vision, natural language processing, transfer learning, and generative AI (including GANs and transformers).
+- Created data structure and algorithm series on Medium, focusing on essential algorithms and data structure using Python.
+- Authored system design articles on Medium, highlighting concepts for famous software systems and large-scale machine learning systems.
+- Organized and conducted two successful workshops on machine learning at the CSME conference with 120+ attendees (GitHub) and computer vision and transfer learning at the University of Alberta with 30+ participants (GitHub).
+
 ### Data Scientist (June 2022 – December 2022)
 
 _Skyjack Inc, Guelph, Canada_
