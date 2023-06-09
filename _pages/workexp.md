@@ -16,7 +16,7 @@ _The Citco Group Limited, Toronto, Canada_
 - Deployed state-of-the-art LLM models, such as StarCoder and Databricks' Dolly, that improved the coding experience for development and business teams and increased documentation quality, leading to a more streamlined software development process and enhanced productivity.
 - Built robust ETL pipelines using Apache Spark in Databricks to extract, transform, and load data into Delta tables, enabling data analytics and ML for improved business outcomes.
 
-### AI and Computer Science Content Creator (June 2021 – present)
+### AI and Computer Science Content Creator (March 2021 – present)
 
 _Freelance_
 
