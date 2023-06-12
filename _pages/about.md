@@ -16,23 +16,8 @@ With experience working with AWS platforms, such as AWS SageMaker, S3, EC2, and 
 
 These are my summary of skills.
 
-**Programming Languages:**
+**Programming Languages:** Python,  SQL,  JavaScript,  R
 
-- Python (Advanced)
-- SQL (Advanced)
-- JavaScript (Experienced)
-- R (Experienced)
 
-**Tools and Frameworks:**
+**Tools and Frameworks:** Scikit-learn, TensorFlow, AWS, PyTorch, Databricks, Apache Spark, Apache Kafka, Hugging Face, Docker
 
-- Scikit-learn (Advanced)
-- TensorFlow (Advanced)
-- AWS (Advanced)
-- Pandas (Advanced)
-- PyTorch (Experienced)
-- Apache Spark (Advanced)
-- Apache Kafka (Experienced)
-- Databricks (Advanced)
-- Docker (Experienced)
-- Hugging Face (Experienced)
-- REST API (Experienced)
