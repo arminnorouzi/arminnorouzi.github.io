@@ -7,7 +7,11 @@ redirect_from:
   - /projects.html
 ---
 
-### DocsGPT using Google Colaboratory ([GitHub](https://github.com/Farhad-Davaripour/DocsGPT))
+### AI Social Media Assistant (June 2023 - Present)
+
+- Initiated the development of a SaaS platform using Google Cloud, integrating the GPT API to function as a social media assistant. This solution is capable of generating and automatically posting content across different platforms, with current work focused on assisting Etsy stores in posting on Pinterest.
+
+### DocsGPT using Google Colaboratory ([GitHub](https://github.com/Farhad-Davaripour/DocsGPT)) - (April 2023 - May 2023)
 
 - Collaborated in the development of DocsGpt, an AI-powered app that enables anyone with a Gmail account to easily upload PDF files and ask questions using GPT-3 embedding.
 - Provided a user-friendly solution for PDF document analysis and question-answering, using Google Collaboratory, making it accessible to a wider audience without requiring installing or interacting with code
