@@ -9,8 +9,7 @@ author_profile: true
 
 _RWTH University, Remote (May 2023 - Present)_
 
-- Graduate students representative FGSR academic appeals committee
-- Graduate students representative voting member in FGSR council
+- Providing expert guidance and consultation to students working on AI-related projects. Specialized in advising on AutoML and the combination of AutoML with Model Predictive Control (AutoML-MPC). Assisted students by sharing insights and best practices and helping them overcome challenges encountered during their AI projects.
 
 ### Faculty of Graduate Studies and Research (FGSR)
 
