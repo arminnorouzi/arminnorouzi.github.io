@@ -17,30 +17,39 @@ _The Citco Group Limited, Toronto, Canada_
 - Fine-tuned open-source LLMs (Llama-2, Falcon, CodeLlama) to adapt model response utilizing QLoRA and ZeRO techniques for efficient fine-tuning, decreasing GPU requirement cost for fine-tuning by 92%.
 - Built ETL pipelines using Apache Spark in Databricks and data streaming through data live tables to extract, transform, and load data into Delta tables, enhancing data analytics performance and minimizing cost.
 
+### Lead Machine Learning Engineer (August 2023 – present)
 
-### Technical Writer (AI and computer science) (May 2023 – present)
+_MA EdTech Solutions Inc, Toronto, Canada (Part-time)_
+
+- Developed innovative AI techniques for analyzing children's diary entries called parentzapp.com, cross-referencing them with psychological literature using vector search and Retrieval-Augmented Generation (RAG) techniques. This initiative aimed at the early detection of mental health issues and potential abuse.
+- Led the development of AI backend using serverless REST API on AWS, integrating services such as API Gateway, Lambda, AWS Bedrock, Databricks, and Pinecone VectorDB with focusing on creating scalable machine learning architectures suitable for production and robust deployment strategies.
+- Led the implementation and management of Continuous Integration and Continuous Delivery (CI/CD) processes utilizing GitHub, AWS CloudFormation, CodePipeline, and CodeBuild and guided a technical team to ensure streamlined development cycles and the delivery of high-quality software.
+- Streamlined AI-driven backend functionalities by orchestrating front-end CI/CD configurations via AWS Amplify in collaboration with front-end engineering teams.
+
+### Technical Writer (AI and computer science) (May 2022 – present)
 
 _Medium, Freelance_
 
-- Published a comprehensive series on data structure and algorithm series and ML system design series, elucidating 100+ algorithms using Python. The series offers profound insights into the architecture of significant large-scale ML systems.
-- Authored an in-depth series on Generative AI and Machine learning and data science, comprising 15+ articles, emphasizing LLM fundamentals, including topics like transformers and adversarial networks, supplemented with Python code.
+- Published a comprehensive series on data structure and algorithm series and ML system design series, elucidating over 100 algorithms using Python. The series offers profound insights into the architecture of significant large-scale ML systems.
+- Authored an in-depth series on Generative AI and Machine learning and data science, comprising over 20 articles, emphasizing LLM fundamentals, including topics like transformers and adversarial networks, supplemented with Python code.
 - Published articles in various platforms, including esteemed medium journals such as Better Programming, TowardsAI, Level Up Coding, Lakers.ai blog, and my blog showcasing advanced topics in LLMs and AI.
 
 ### Data Scientist (June 2022 – December 2022)
 
 _Skyjack Inc, Guelph, Canada_
 
-- led a team of interns and collaborated with R&D, service, and marketing to design and implement ML pipelines, resulting in the successful delivery of  3 projects within 6 months.
+- led a team of interns and collaborated with R&D, service, and marketing to design and implement ML pipelines, resulting in the successful delivery of 3 projects within 6 months.
 - Created and productized ML model using AWS CodePipeline, SageMaker, and Lambda for predicting machine battery levels with 91% accuracy based on telematic data streamed in real-time from Skyjack machines globally.
 - Optimized engineering and product team efficiency by conducting in-depth analytics, presenting findings through visualizations using Plotly through an AWS web application, and creating automated reports five times faster than manual ones.
 
-
-### Machine Learning Researcher/Lecturer (May 2018 – May 2022)
+### Doctoral Researcher and Lecturer, Machine Learning and Intelligent Control Systems (May 2018 – May 2022)
 
 _University of Alberta, Edmonton, Canada_
 
 - Designed end-to-end ML solution using a recurrent deep neural network in TensorFlow, achieving a 96% accuracy in predicting combustion engine emissions. This innovation eliminated the need for high-cost sensors and expedited the design and implementation of the controller, making it 10 times faster than traditional approaches.
-- Directed research teams across three industrial projects at Energy Mechatronics Lab (EML) with partners, including MMP Lab, IAV GmbH, and Cummins. Mentored teams in delivering ML solutions that replaced traditional automotive system modelling with high-accuracy, data-driven models.
+- Led research teams in three major industrial projects, replacing traditional automotive system modelling with accurate, data-driven ML solutions in collaboration with partners like MMP Lab, IAV GmbH, and Cummins.
+- Created a comprehensive Machine Learning course (MECE 610), covering essentials to advanced ML and deep learning topics, supplemented by over 50 practical Python examples, both from scratch and using standard packages.
+- Executed and facilitated two highly engaging workshops on machine learning and computer vision, providing critical insights to 120+ attendees at the CSME conference and the University of Alberta.
 
 ### Research and Teaching Assistance (September 2015 – February 2017)
 
@@ -50,4 +59,3 @@ _K.N. Toosi University of Technology, Tehran, Iran_
 - Provided supervision for an undergraduate capstone project, focusing on integrating control theory and meta-heuristic optimization within autonomous vehicle control.
 - Served as a Teaching Assistant, leading graduate course classes on dynamics, vibration, and engineering mathematics, ensuring a comprehensive understanding of the subjects.
 - Authored and shared a detailed tutorial for 20-sim software, enabling users to develop multi-domain dynamics models using the Bond graph method, enhancing user proficiency and model accuracy.
-

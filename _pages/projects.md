@@ -7,7 +7,12 @@ redirect_from:
   - /projects.html
 ---
 
-### AI Social Media Assistant (June 2023 - Present)
+### PatentGPT: Patent Measurement Extraction System (GitHub) ([GitHub](https://github.com/arminnorouzi/patentGPT) - ([pypi](https://pypi.org/project/patentgpt-extract/))) - (June 2023 - August 2023)
+
+- Developed a comprehensive patent analysis system using USPTO XML parsing and filtering, Chroma vector search, and Langchain package for patent measurement information extraction, specifically targeting patents related to Chemistry and Metallurgy.
+- Leveraged OpenAI APIs, including GPT-3.5-turbo, to perform text extraction, achieving cost-effective and efficient results. Compared various text analysis techniques such as Kor packages, Langchain text analysis, and Langchain question answering, reaching a solution that was almost 3 times faster and 23 times more cost-efficient.
+
+### AI Social Media Assistant (June 2023 - August 2023)
 
 - Initiated the development of a SaaS platform using Google Cloud, integrating the GPT API to function as a social media assistant. This solution is capable of generating and automatically posting content across different platforms, with current work focused on assisting Etsy stores in posting on Pinterest.
 

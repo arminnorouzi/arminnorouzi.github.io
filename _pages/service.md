@@ -7,7 +7,7 @@ author_profile: true
 
 ### AI Consultant
 
-_RWTH University, Remote (May 2023 - Present)_
+_RWTH University and University of Alberta, Remote (May 2023 - Present)_
 
 - Providing expert guidance and consultation to students working on AI-related projects. Specialized in advising on AutoML and the combination of AutoML with Model Predictive Control (AutoML-MPC). Assisted students by sharing insights and best practices and helping them overcome challenges encountered during their AI projects.
 
