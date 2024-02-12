@@ -17,4 +17,4 @@ In addition to my roles in the industry, I have worked as an AI and Computer Sci
 In my previous role as a Data Scientist at Skyjack Inc, I spearheaded several projects by architecting and introducing ML pipelines, boosting the efficiency of the engineering and product teams. As an Applied Machine Learning Researcher at the University of Alberta, I guided research teams and introduced real-time ML solutions for industrial partners. My research earned recognition from our industrial partners and the academic community, with over 20 publications, 450 citations, and an h-index of 14.
 
 I aim to continue utilizing my skills and knowledge to create innovative solutions that enhance operational efficiencies and deliver business value.
-If you wish to discuss potential opportunities, collaborations, or chat about AI, Machine Learning, and related topics, feel free to contact me via LinkedIn!
+If you wish to discuss potential opportunities, collaborations, or chat about AI, Machine Learning, and related topics, feel free to contact me via LinkedIn.
