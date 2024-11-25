@@ -7,17 +7,34 @@ redirect_from:
   - /workexp.html
 ---
 
-### Machine Learning Engineer (December 2022 – present)
+### Software Engineer, Aplied AI (December 2024 – present)
+
+_Google, Waterloo, Canada_
+
+- Worked as an Applied AI Software Engineer in the Google Cloud Platform (GCP) Contact Center as a Service (CCAI) Platform.
+
+### Software Engineer, Machine Learning Engineer (December 2022 – November 2024)
 
 _The Citco Group Limited, Toronto, Canada_
 
-- Developed and implemented ML/DL solutions using AWS CodePipeline, SageMaker, Lambda, and Databricks for internal business teams, resulting in an overall 80% improvement in automation.
-- Developed and implemented an ML pipeline, using Databricks' infrastructure for daily retraining of ML models, structured as a DAG, which improved Citco Bank transaction settlement date prediction accuracy by 12% over the baseline.
-- Used Azure OpenAI, Anthropic Claude 2 on Amazon Bedrock and vector database for semantic search with Langchain to create a chatbot. to access internal Confluence data, improving the service ticket and reducing tickets by 34%.
-- Fine-tuned open-source LLMs (Llama-2, Falcon, CodeLlama) to adapt model response utilizing QLoRA and ZeRO techniques for efficient fine-tuning, decreasing GPU requirement cost for fine-tuning by 92%.
-- Built ETL pipelines using Apache Spark in Databricks and data streaming through data live tables to extract, transform, and load data into Delta tables, enhancing data analytics performance and minimizing cost.
+- Architected and led the Citco bank transaction settlement dates prediction and total deposit balance forecasting, managing the code base and developing and deploying multiple machine learning and deep learning models.
+- Accelerated ML development lifecycle by 25% by leading the development of a custom Python package incorporating Spark-based ETL pipelines, the model pipeline with continuous training, registering, deploying, and experiment tracking.
+- Designed and implemented five ML pipelines for different transaction categories, leveraging custom-built AutoML for feature and model selection, achieving a consistent 9% accuracy improvement over baseline models and preventing model drift.
+- Developed and released a deep learning model using multi-tower architecture and factorization machine techniques to forecast bank deposits, resulting in an average $150 million increase in weekly balance forecast accuracy compared to the legacy model.
+- Developed and deployed LLM-based extraction techniques leveraging serverless AWS infrastructure to automate key data extraction from trade documents. Achieved an 18% improvement in extraction accuracy compared to the legacy system, resulting in annual cost savings of over $1.2 million.
+- Developed and deployed an AI chatbot with semantic knowledge search using Databricks vector search and DynamoDB caching, achieving over 85% user satisfaction.
+- Ensured optimal performance and reliability of the CitcoRecs transaction reconciliation system by providing ongoing support and maintenance for over 20+ ML models deployed on SageMaker.
 
-### Lead Machine Learning Engineer (August 2023 – present)
+
+### Technical Writer (AI and computer science) (May 2022 – November 2024)
+
+_Medium, Freelance_
+
+- Published a comprehensive series on data structure and algorithm series and ML system design series, elucidating over 100 algorithms using Python. The series offers profound insights into the architecture of significant large-scale ML systems.
+- Authored an in-depth series on Generative AI and Machine learning and data science, comprising over 20 articles, emphasizing LLM fundamentals, including topics like transformers and adversarial networks, supplemented with Python code.
+- Published articles in various platforms, including esteemed medium journals such as Better Programming, TowardsAI, Level Up Coding, Lakers.ai blog, and my blog showcasing advanced topics in LLMs and AI.
+
+### Lead Machine Learning Engineer (August 2023 – November 2024)
 
 _MA EdTech Solutions Inc, Toronto, Canada (Part-time)_
 
@@ -26,15 +43,7 @@ _MA EdTech Solutions Inc, Toronto, Canada (Part-time)_
 - Led the implementation and management of Continuous Integration and Continuous Delivery (CI/CD) processes utilizing GitHub, AWS CloudFormation, CodePipeline, and CodeBuild and guided a technical team to ensure streamlined development cycles and the delivery of high-quality software.
 - Streamlined AI-driven backend functionalities by orchestrating front-end CI/CD configurations via AWS Amplify in collaboration with front-end engineering teams.
 
-### Technical Writer (AI and computer science) (May 2022 – present)
-
-_Medium, Freelance_
-
-- Published a comprehensive series on data structure and algorithm series and ML system design series, elucidating over 100 algorithms using Python. The series offers profound insights into the architecture of significant large-scale ML systems.
-- Authored an in-depth series on Generative AI and Machine learning and data science, comprising over 20 articles, emphasizing LLM fundamentals, including topics like transformers and adversarial networks, supplemented with Python code.
-- Published articles in various platforms, including esteemed medium journals such as Better Programming, TowardsAI, Level Up Coding, Lakers.ai blog, and my blog showcasing advanced topics in LLMs and AI.
-
-### Data Scientist (June 2022 – December 2022)
+### Software Engineer, Data Scientist (June 2022 – December 2022)
 
 _Skyjack Inc, Guelph, Canada_
 
